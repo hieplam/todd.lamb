@@ -8,6 +8,8 @@ c3-104:
   - src/styles/**
 c3-105:
   - src/utils/**
+c3-106:
+  - .github/workflows/**
 c3-110:
   - src/pages/**
 c3-111:
