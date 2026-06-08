@@ -11,7 +11,6 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
 
 # environment variables
 .env
@@ -26,8 +25,9 @@ pnpm-debug.log*
 # pagefind
 public/pagefind
 
-# pnpm
-.pnpm-store
 
 # docker compose
 compose.override.yaml
+
+# C3 architecture cache (canonical docs are the .md files; db is rebuildable via `c3 repair`)
+.c3/c3.db

@@ -29,7 +29,7 @@ In this section, you will find instructions on how to add support for LaTeX in y
 1. Install the necessary remark and rehype plugins by running:
 
    ```bash
-   pnpm install rehype-katex remark-math katex
+   bun install rehype-katex remark-math katex
    ```
 
 2. Update the Astro configuration to use the these plugins:
