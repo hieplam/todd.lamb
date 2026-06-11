@@ -1,16 +1,16 @@
 ---
 id: c3-107
-c3-seal: 82237d3a3e96ea3e27964b6b137afafcb249df706665b662bafb92c62482a69c
+c3-seal: f47c72c665bf579230798eac6a8a8abcc9f3842dba7aeaa5f2000f6235ad30ea
 title: deployment
 type: component
 category: foundation
 parent: c3-1
-goal: Package the built static site into a self-contained Docker image that serves the blog through nginx behind HTTP Basic Auth, so the Dokploy deployment exposes content only to logged-in readers while keeping an unauthenticated healthcheck endpoint.
+goal: Package the built static site into a self-contained Docker image served by nginx, public by default, with an HTTP Basic Auth gate that stays off until the AUTH_PASSWORD env var is set, plus an always-open /healthz endpoint for Dokploy probes.
 ---
 
 ## Goal
 
-Package the built static site into a self-contained Docker image that serves the blog through nginx behind HTTP Basic Auth, so the Dokploy deployment exposes content only to logged-in readers while keeping an unauthenticated healthcheck endpoint.
+Package the built static site into a self-contained Docker image served by nginx, public by default, with an HTTP Basic Auth gate that stays off until the AUTH_PASSWORD env var is set, plus an always-open /healthz endpoint for Dokploy probes.
 
 ## Parent Fit
 
@@ -23,7 +23,7 @@ Package the built static site into a self-contained Docker image that serves the
 
 ## Purpose
 
-Owns the two-stage Dockerfile (bun build stage producing dist/, nginx:mainline-alpine-slim runtime stage), the nginx server config (docker/default.conf) that applies auth_basic site-wide with an auth-exempt /healthz location plus gzip and cache headers, and the entrypoint hook (docker/30-htpasswd.sh) that hashes AUTH_USER/AUTH_PASSWORD env vars into /etc/nginx/.htpasswd at container start (random password with a stderr warning when unset). Also owns compose.yaml for the local bun dev container. Does NOT own the Astro build pipeline itself (package.json scripts), CI workflows (c3-106), or Dokploy server-side configuration.
+Owns the two-stage Dockerfile (bun build stage producing dist/, nginx:mainline-alpine-slim runtime stage), the nginx server config (docker/default.conf) that includes /etc/nginx/auth-gate.conf site-wide with an auth-exempt /healthz location plus gzip and cache headers, and the entrypoint hook (docker/30-htpasswd.sh) that decides the gate at container start: AUTH_PASSWORD unset writes an empty auth-gate.conf (public site, the default per owner decision); AUTH_PASSWORD set hashes AUTH_USER (default rider)/AUTH_PASSWORD into /etc/nginx/.htpasswd and writes the auth_basic directives. Also owns compose.yaml for the local bun dev container. Does NOT own the Astro build pipeline itself (package.json scripts), CI workflows (c3-106), or Dokploy server-side configuration.
 
 ## Foundational Flow
 
@@ -38,10 +38,10 @@ Owns the two-stage Dockerfile (bun build stage producing dist/, nginx:mainline-a
 
 | Aspect | Detail | Reference |
 | --- | --- | --- |
-| Primary path | Request hits nginx, basic auth challenges, valid credentials serve static files from /usr/share/nginx/html | c3-1 |
-| Healthcheck | GET /healthz returns 200 without credentials so Docker HEALTHCHECK and Dokploy probes pass | c3-1 |
-| Unauthenticated | Any other path without credentials returns 401 with WWW-Authenticate header | c3-1 |
-| Failure | Missing AUTH_PASSWORD generates a random one-off password and logs it to stderr instead of failing open | c3-1 |
+| Primary path | Request hits nginx and is served publicly from /usr/share/nginx/html (auth-gate.conf empty by default) | c3-1 |
+| Gated mode | With AUTH_PASSWORD set, auth-gate.conf enables auth_basic: unauthenticated requests get 401 with WWW-Authenticate, valid credentials get 200 | c3-1 |
+| Healthcheck | GET /healthz returns 200 without credentials in both modes so Docker HEALTHCHECK and Dokploy probes pass | c3-1 |
+| Failure | Entrypoint runs with set -eu; a malformed env never half-enables the gate because auth-gate.conf is written atomically per start | c3-1 |
 
 ## Governance
 
@@ -53,15 +53,15 @@ Owns the two-stage Dockerfile (bun build stage producing dist/, nginx:mainline-a
 
 | Surface | Direction | Contract | Boundary | Evidence |
 | --- | --- | --- | --- | --- |
-| Port 80 | OUT | Serves dist/ over HTTP; 401 without credentials, 200 with valid AUTH_USER/AUTH_PASSWORD | Dokploy reverse proxy terminates TLS in front | docker/default.conf |
+| Port 80 | OUT | Serves dist/ over HTTP; 200 publicly by default, 401-without/200-with credentials when AUTH_PASSWORD is set | Dokploy reverse proxy terminates TLS in front | docker/default.conf |
 | /healthz | OUT | Always 200 text/plain without auth for container orchestration probes | Docker HEALTHCHECK and Dokploy health monitoring | docker/default.conf |
-| AUTH_USER / AUTH_PASSWORD | IN | Env vars consumed once at container start to build htpasswd | Set in Dokploy application environment tab | docker/30-htpasswd.sh |
+| AUTH_PASSWORD / AUTH_USER | IN | Env vars read once at container start; the gate turns on only when AUTH_PASSWORD is present, otherwise the site serves publicly | Set in Dokploy application environment tab | docker/30-htpasswd.sh |
 
 ## Change Safety
 
 | Risk | Trigger | Detection | Required Verification |
 | --- | --- | --- | --- |
-| Auth accidentally disabled or bypassed | Editing docker/default.conf locations or auth_basic directives | curl -I / returns 200 without credentials | Run curl -I http://localhost:8080/ expecting 401 and curl -u rider:secret http://localhost:8080/ expecting 200 against docker/default.conf |
+| Gate silently open when owner intended it closed | Setting AUTH_PASSWORD but editing docker/30-htpasswd.sh or docker/default.conf include | curl -I / returns 200 despite AUTH_PASSWORD being set | With AUTH_PASSWORD set, run curl -I http://localhost:8080/ expecting 401 and curl -u rider:secret http://localhost:8080/ expecting 200 per docker/default.conf |
 | Healthcheck breaks and Dokploy kills the container | Renaming or protecting /healthz | Container marked unhealthy after deploy | curl /healthz expects 200 unauthenticated |
 | Build stage drifts from local build | package.json build script changes without Dockerfile review | Docker build failure on deploy | Run docker build -t hieplam-rides . with ./Dockerfile and docker/default.conf in context; build must exit 0 |
 

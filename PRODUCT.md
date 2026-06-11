@@ -6,7 +6,7 @@ brand
 
 ## Users
 
-Người đọc tiếng Việt quan tâm du lịch xe máy đường dài: bạn bè của tác giả và cộng đồng rider tra cứu lộ trình, kinh nghiệm trước chuyến đi. Đọc chủ yếu trên điện thoại, thường vào buổi tối hoặc khi đang lên kế hoạch chuyến đi. Blog đặt sau lớp đăng nhập (basic auth) nên người đọc là khách được chủ blog mời.
+Người đọc tiếng Việt quan tâm du lịch xe máy đường dài: bạn bè của tác giả và cộng đồng rider tra cứu lộ trình, kinh nghiệm trước chuyến đi. Đọc chủ yếu trên điện thoại, thường vào buổi tối hoặc khi đang lên kế hoạch chuyến đi. Blog mặc định public; chủ blog có thể bật lớp đăng nhập (basic auth) qua env khi cần giới hạn người đọc.
 
 ## Product Purpose
 

@@ -4,7 +4,7 @@
 
 Nhật ký những chuyến đi xe máy đường dài của Hiệp Lâm: 45 bài viết về các cung đường Việt Nam, Lào, Thái Lan và Campuchia. Site tĩnh dựng bằng [Astro 6](https://astro.build) (theme gốc [AstroPaper](https://github.com/satnaing/astro-paper)), Tailwind CSS 4, tìm kiếm Pagefind, OG image sinh tự động.
 
-Blog deploy bằng Docker (nginx) sau lớp **HTTP Basic Auth**: người đọc phải đăng nhập mới xem được nội dung.
+Blog deploy bằng Docker (nginx), **mặc định public**. Khi cần giới hạn người đọc, set env `AUTH_PASSWORD` là toàn site khóa sau HTTP Basic Auth — không cần sửa code.
 
 ## Phát triển
 
@@ -32,24 +32,30 @@ Quy ước: bài có file `public/images/posts/<slug>/hero.svg` sẽ tự hiện
 
 ## Docker & đăng nhập
 
-Image build 2 stage: Bun build site tĩnh, nginx alpine serve `dist/` với basic auth trên toàn site (trừ `/healthz` cho healthcheck).
+Image build 2 stage: Bun build site tĩnh, nginx alpine serve `dist/`. Mặc định public; set `AUTH_PASSWORD` để bật basic auth toàn site (trừ `/healthz` cho healthcheck).
 
 ```bash
 docker build -t hieplam-rides .
-docker run -p 8080:80 -e AUTH_USER=rider -e AUTH_PASSWORD=secret hieplam-rides
-# curl -I localhost:8080          -> 401
-# curl -u rider:secret localhost:8080 -> 200
+
+# public (mặc định)
+docker run -p 8080:80 hieplam-rides
+# curl -I localhost:8080 -> 200
+
+# khóa bằng basic auth
+docker run -p 8080:80 -e AUTH_PASSWORD=secret hieplam-rides
+# curl -I localhost:8080              -> 401
+# curl -u rider:secret -I localhost:8080 -> 200
 ```
 
-| Env             | Mặc định                     | Ý nghĩa       |
-| --------------- | ---------------------------- | ------------- |
-| `AUTH_USER`     | `rider`                      | Tên đăng nhập |
-| `AUTH_PASSWORD` | (sinh ngẫu nhiên, in ra log) | Mật khẩu      |
+| Env             | Mặc định             | Ý nghĩa                                        |
+| --------------- | -------------------- | ---------------------------------------------- |
+| `AUTH_PASSWORD` | (không set = public) | Set để bật basic auth toàn site                |
+| `AUTH_USER`     | `rider`              | Tên đăng nhập, chỉ dùng khi có `AUTH_PASSWORD` |
 
 ## Deploy lên Dokploy
 
 1. Tạo **Application** mới từ git repo này, build type **Dockerfile**.
-2. Đặt env `AUTH_USER` / `AUTH_PASSWORD` trong tab Environment.
+2. (Tùy chọn) Đặt env `AUTH_PASSWORD` (và `AUTH_USER`) trong tab Environment nếu muốn khóa blog.
 3. Gắn domain, bật HTTPS, deploy. Healthcheck dùng đường dẫn `/healthz`.
 4. Cập nhật `site.url` trong `astro-paper.config.ts` theo domain thật rồi redeploy (canonical URL/sitemap/RSS).
 
