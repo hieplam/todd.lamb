@@ -2,25 +2,26 @@ import type { APIRoute } from "astro";
 import satori from "satori";
 import sharp from "sharp";
 import { fontData, experimental_getFontFileURL } from "astro:assets";
-import { getFontPathByWeight } from "@/utils/getFontPathByWeight";
+import { getFontSourcesByWeight } from "@/utils/getFontPathByWeight";
 import config from "@/config";
 
 export const GET: APIRoute = async context => {
-  const fonts = fontData["--font-google-sans-code"];
-  const regularFontPath = getFontPathByWeight(fonts, 400);
-  const boldFontPath = getFontPathByWeight(fonts, 700);
+  const fonts = fontData["--font-archivo"];
+  const regularFontPaths = getFontSourcesByWeight(fonts, 400);
+  const boldFontPaths = getFontSourcesByWeight(fonts, 700);
 
-  if (regularFontPath === undefined || boldFontPath === undefined) {
+  if (regularFontPaths.length === 0 || boldFontPaths.length === 0) {
     throw new Error("Cannot find the font path.");
   }
 
+  const fetchFont = (path: string) =>
+    fetch(experimental_getFontFileURL(path, context.url)).then(res =>
+      res.arrayBuffer()
+    );
+
   const [regularData, boldData] = await Promise.all([
-    fetch(experimental_getFontFileURL(regularFontPath, context.url)).then(res =>
-      res.arrayBuffer()
-    ),
-    fetch(experimental_getFontFileURL(boldFontPath, context.url)).then(res =>
-      res.arrayBuffer()
-    ),
+    Promise.all(regularFontPaths.map(fetchFont)),
+    Promise.all(boldFontPaths.map(fetchFont)),
   ]);
 
   const svg = await satori(
@@ -34,7 +35,7 @@ export const GET: APIRoute = async context => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          fontFamily: "Google Sans Code",
+          fontFamily: "Archivo",
         },
         children: [
           {
@@ -144,18 +145,18 @@ export const GET: APIRoute = async context => {
       height: 630,
       embedFont: true,
       fonts: [
-        {
-          name: "Google Sans Code",
-          data: regularData,
-          weight: 400,
-          style: "normal",
-        },
-        {
-          name: "Google Sans Code",
-          data: boldData,
-          weight: 700,
-          style: "normal",
-        },
+        ...regularData.map(data => ({
+          name: "Archivo",
+          data,
+          weight: 400 as const,
+          style: "normal" as const,
+        })),
+        ...boldData.map(data => ({
+          name: "Archivo",
+          data,
+          weight: 700 as const,
+          style: "normal" as const,
+        })),
       ],
     }
   );

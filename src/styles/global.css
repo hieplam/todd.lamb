@@ -19,6 +19,17 @@
   [role="button"]:not(:disabled) {
     cursor: pointer;
   }
+  code,
+  kbd,
+  samp,
+  pre {
+    font-family: var(--font-google-sans-code), ui-monospace, monospace;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
 }
 
 @utility max-w-app {

@@ -1,0 +1,778 @@
+[
+  {
+    "slug": "ha-giang-loop-mua-tam-giac-mach",
+    "title": "Hà Giang loop mùa tam giác mạch: 4 ngày trên cao nguyên đá",
+    "description": "Chạy trọn vòng Hà Giang loop giữa mùa hoa tam giác mạch, từ Quản Bạ qua Yên Minh lên Đồng Văn, ngủ homestay người Mông và uống rượu ngô bên bếp lửa.",
+    "tags": [
+      "dong-bac",
+      "ha-giang",
+      "deo",
+      "nhom"
+    ],
+    "date": "2024-10-18",
+    "featured": true,
+    "scene": "karst",
+    "km": 420,
+    "days": 4,
+    "bike": "Honda XR150L",
+    "route": "Hà Giang – Quản Bạ – Yên Minh – Đồng Văn – Mèo Vạc – Du Già – Hà Giang, mùa hoa tam giác mạch tháng 10, đoàn 4 xe"
+  },
+  {
+    "slug": "deo-ma-pi-leng-song-nho-que",
+    "title": "Mã Pí Lèng và sông Nho Quế: đoạn đường đẹp nhất Việt Nam?",
+    "description": "Một buổi sáng chạy chậm trên đèo Mã Pí Lèng, gửi xe xuống thuyền sông Nho Quế và trả lời câu hỏi vì sao dân xe máy gọi đây là đoạn đường đẹp nhất nước.",
+    "tags": [
+      "dong-bac",
+      "ha-giang",
+      "deo"
+    ],
+    "date": "2024-10-20",
+    "featured": false,
+    "scene": "canyon",
+    "km": 65,
+    "days": 1,
+    "bike": "Honda XR150L",
+    "route": "Đồng Văn – đèo Mã Pí Lèng – hẻm Tu Sản – bến thuyền Nho Quế – Mèo Vạc, đi chậm chụp ảnh, gửi xe đi thuyền hẻm Tu Sản"
+  },
+  {
+    "slug": "y-ty-mua-lua-chin",
+    "title": "Y Tý mùa lúa chín: săn mây hụt và bát thắng cố đầu đời",
+    "description": "Hai ngày từ Lào Cai lên Y Tý đúng mùa lúa chín, săn mây thất bại vì mưa nhưng đổi lại là ruộng bậc thang vàng rực A Lù và chợ phiên thứ Bảy.",
+    "tags": [
+      "tay-bac",
+      "lao-cai",
+      "rice"
+    ],
+    "date": "2024-09-14",
+    "featured": false,
+    "scene": "rice",
+    "km": 210,
+    "days": 2,
+    "bike": "Honda XR150L",
+    "route": "Lào Cai – Bát Xát – Mường Hum – Y Tý – A Lù – Lũng Pô – về Lào Cai, mùa lúa tháng 9, đường nhiều đoạn sạt sau mưa"
+  },
+  {
+    "slug": "ta-xua-san-may-cuoi-thu",
+    "title": "Tà Xùa cuối thu: đêm lạnh 8 độ và biển mây lúc 5 giờ sáng",
+    "description": "Kinh nghiệm chạy đêm lên Tà Xùa, thuê phòng gỗ sát mỏm Cá Heo và thức dậy lúc 4 rưỡi sáng để kịp thấy biển mây tràn qua sống lưng khủng long.",
+    "tags": [
+      "tay-bac",
+      "son-la",
+      "san-may"
+    ],
+    "date": "2024-11-09",
+    "featured": false,
+    "scene": "fog",
+    "km": 240,
+    "days": 2,
+    "bike": "Yamaha Exciter 155",
+    "route": "Hà Nội – Sơn Tây – Thu Cúc – Phù Yên – Bắc Yên – Tà Xùa, chạy chiều tối, sáng săn mây mỏm Cá Heo và sống lưng khủng long"
+  },
+  {
+    "slug": "moc-chau-mua-man-no-hoa",
+    "title": "Mộc Châu cuối đông: thung lũng mận Nà Ka trắng như tuyết",
+    "description": "Chuyến đi 2 ngày cuối tháng 1 lên Mộc Châu xem hoa mận nở trắng thung lũng Nà Ka, kèm ghi chú mấy quán cơm ngon và đoạn quốc lộ 6 hay bắn tốc độ.",
+    "tags": [
+      "tay-bac",
+      "son-la",
+      "mua-hoa"
+    ],
+    "date": "2025-01-25",
+    "featured": false,
+    "scene": "blossom",
+    "km": 380,
+    "days": 2,
+    "bike": "Honda Winner X",
+    "route": "Hà Nội – QL6 – Hòa Bình – đèo Thung Khe – Mộc Châu – thung lũng mận Nà Ka – rừng thông bản Áng, mùa hoa mận cuối tháng 1"
+  },
+  {
+    "slug": "mu-cang-chai-ruong-bac-thang",
+    "title": "Mù Cang Chải tháng 9: đèo Khau Phạ và mâm xôi La Pán Tẩn",
+    "description": "Ba ngày len lỏi giữa ruộng bậc thang Mù Cang Chải mùa gặt, vượt đèo Khau Phạ trong sương và tìm đường đất lên đồi mâm xôi La Pán Tẩn.",
+    "tags": [
+      "tay-bac",
+      "yen-bai",
+      "rice",
+      "deo"
+    ],
+    "date": "2024-09-21",
+    "featured": true,
+    "scene": "rice",
+    "km": 360,
+    "days": 3,
+    "bike": "Honda CRF300L",
+    "route": "Hà Nội – Nghĩa Lộ – Tú Lệ – đèo Khau Phạ – La Pán Tẩn – Mù Cang Chải – Than Uyên, mùa gặt tháng 9, có đoạn offroad lên đồi mâm xôi"
+  },
+  {
+    "slug": "sapa-o-quy-ho-hoang-hon",
+    "title": "Ô Quy Hồ lúc hoàng hôn: chạy đua với mặt trời trên nóc nhà Tây Bắc",
+    "description": "Từ Sa Pa qua đèo Ô Quy Hồ sang Lai Châu đúng giờ vàng, vì sao nên đổ đèo phía Lai Châu lúc chiều muộn và đoạn nào sương dày nhất.",
+    "tags": [
+      "tay-bac",
+      "lao-cai",
+      "deo"
+    ],
+    "date": "2024-12-07",
+    "featured": false,
+    "scene": "sunset",
+    "km": 90,
+    "days": 1,
+    "bike": "Honda CB500X",
+    "route": "Sa Pa – Trạm Tôn – đỉnh đèo Ô Quy Hồ – Tam Đường (Lai Châu), canh giờ hoàng hôn, sương dày đoạn cổng trời"
+  },
+  {
+    "slug": "dien-bien-deo-pha-din",
+    "title": "Lên Điện Biên bằng đèo Pha Đin: 32 km dốc và một bài học lịch sử",
+    "description": "Chuyến chạy dài Hà Nội – Điện Biên Phủ qua đèo Pha Đin huyền thoại, ghé đồi A1 và hầm Đờ Cát, nghĩ về những đoàn xe thồ năm 1954.",
+    "tags": [
+      "tay-bac",
+      "dien-bien",
+      "deo",
+      "lich-su"
+    ],
+    "date": "2025-05-03",
+    "featured": false,
+    "scene": "sunrise",
+    "km": 470,
+    "days": 3,
+    "bike": "Honda CB500X",
+    "route": "Hà Nội – Sơn La – đèo Pha Đin – Tuần Giáo – Điện Biên Phủ, thăm đồi A1, hầm Đờ Cát, cánh đồng Mường Thanh dịp lễ 30/4–7/5"
+  },
+  {
+    "slug": "cao-bang-thac-ban-gioc",
+    "title": "Cao Bằng và thác Bản Giốc: cung đường đẹp bị đánh giá thấp nhất Đông Bắc",
+    "description": "Ba ngày chạy Cao Bằng qua đèo Mã Phục đến thác Bản Giốc và động Ngườm Ngao, vì sao mình nghĩ cung này xứng đáng nổi tiếng ngang Hà Giang.",
+    "tags": [
+      "dong-bac",
+      "cao-bang",
+      "thac"
+    ],
+    "date": "2025-03-15",
+    "featured": false,
+    "scene": "waterfall",
+    "km": 520,
+    "days": 3,
+    "bike": "Honda XR150L",
+    "route": "Hà Nội – Bắc Kạn – Cao Bằng – đèo Mã Phục – Quảng Uyên – thác Bản Giốc – động Ngườm Ngao – hồ Thang Hen, mùa nước tháng 3"
+  },
+  {
+    "slug": "ho-ba-be-thuyen-va-xe",
+    "title": "Hồ Ba Bể: nửa ngày trên yên xe, nửa ngày trên thuyền độc mộc",
+    "description": "Kết hợp chạy xe quanh vườn quốc gia Ba Bể và đi thuyền dọc hồ, ngủ nhà sàn người Tày ở Pác Ngòi, ăn cá nướng và tép chua.",
+    "tags": [
+      "dong-bac",
+      "bac-kan",
+      "ho"
+    ],
+    "date": "2024-06-15",
+    "featured": false,
+    "scene": "lake",
+    "km": 480,
+    "days": 2,
+    "bike": "Honda Winner X",
+    "route": "Hà Nội – Thái Nguyên – chợ Đồn – hồ Ba Bể – Pác Ngòi – động Hua Mạ, ngủ homestay nhà sàn, đi thuyền sáng sớm"
+  },
+  {
+    "slug": "mau-son-lang-son-mua-dong",
+    "title": "Mẫu Sơn 2 độ C: đi tìm băng giá trên đỉnh núi xứ Lạng",
+    "description": "Chuyến đi liều giữa đợt rét đậm lên đỉnh Mẫu Sơn tìm băng, tay cứng đờ trong găng, và lý do nên kiểm tra má phanh trước khi đổ núi sương mù.",
+    "tags": [
+      "dong-bac",
+      "lang-son",
+      "mua-dong"
+    ],
+    "date": "2025-01-11",
+    "featured": false,
+    "scene": "night",
+    "km": 340,
+    "days": 2,
+    "bike": "Honda XR150L",
+    "route": "Hà Nội – Bắc Giang – Lạng Sơn – đỉnh Mẫu Sơn, đợt rét đậm tháng 1, đường lên đỉnh hẹp và đóng sương mù dày"
+  },
+  {
+    "slug": "binh-lieu-song-lung-khung-long",
+    "title": "Bình Liêu mùa cỏ lau: chạy xe đến chân sống lưng khủng long",
+    "description": "Cung Quảng Ninh ít người biết: chạy xe máy men đường tuần tra biên giới Bình Liêu mùa cỏ lau trắng, leo cột mốc 1305 trên sống lưng khủng long.",
+    "tags": [
+      "dong-bac",
+      "quang-ninh",
+      "bien-gioi"
+    ],
+    "date": "2024-11-23",
+    "featured": false,
+    "scene": "grassland",
+    "km": 420,
+    "days": 2,
+    "bike": "Yamaha Exciter 155",
+    "route": "Hà Nội – Uông Bí – Tiên Yên – Bình Liêu – đường tuần tra biên giới – mốc 1305 – thác Khe Vằn, mùa cỏ lau tháng 11"
+  },
+  {
+    "slug": "quoc-lo-4c-dong-van-meo-vac",
+    "title": "Quốc lộ 4C: giải phẫu con đường Hạnh Phúc",
+    "description": "Đi chậm để đọc con đường Hạnh Phúc nối Hà Giang với Đồng Văn – Mèo Vạc: lịch sử mở đường bằng tay, những khúc cua tử thần và trạm dừng đáng ghé.",
+    "tags": [
+      "dong-bac",
+      "ha-giang",
+      "deo",
+      "lich-su"
+    ],
+    "date": "2025-04-12",
+    "featured": false,
+    "scene": "karst",
+    "km": 185,
+    "days": 2,
+    "bike": "Honda CRF300L",
+    "route": "TP Hà Giang – dốc Bắc Sum – cổng trời Quản Bạ – Yên Minh – phố cổ Đồng Văn theo QL4C, dừng đọc bia đá con đường Hạnh Phúc"
+  },
+  {
+    "slug": "hoang-su-phi-xin-man",
+    "title": "Hoàng Su Phì – Xín Mần: phía tây Hà Giang không có trên bưu thiếp",
+    "description": "Ba ngày offroad nhẹ qua ruộng bậc thang Hoàng Su Phì và đèo Gió Xín Mần, phần Hà Giang vắng khách du lịch và những bản Dao đỏ hiếu khách.",
+    "tags": [
+      "dong-bac",
+      "ha-giang",
+      "offroad",
+      "rice"
+    ],
+    "date": "2024-09-28",
+    "featured": false,
+    "scene": "rice",
+    "km": 390,
+    "days": 3,
+    "bike": "Honda CRF300L",
+    "route": "Hà Giang – Bắc Quang – Hoàng Su Phì – bản Phùng – Xín Mần – đèo Gió – Cốc Pài, đường xấu sau mưa, nhiều đoạn đất đỏ"
+  },
+  {
+    "slug": "tu-le-khau-pha-tam-duong",
+    "title": "Tú Lệ – Khau Phạ: xôi nếp tan và 30 phút bay dù lượn nhìn xuống cung đường",
+    "description": "Dừng ở Tú Lệ ăn xôi nếp tan, vượt đèo Khau Phạ rồi liều mình bay dù lượn để nhìn từ trên cao chính con đèo vừa chạy qua.",
+    "tags": [
+      "tay-bac",
+      "yen-bai",
+      "deo"
+    ],
+    "date": "2025-09-20",
+    "featured": false,
+    "scene": "sunrise",
+    "km": 320,
+    "days": 2,
+    "bike": "Honda XR150L",
+    "route": "Hà Nội – Nghĩa Lộ – Tú Lệ – đèo Khau Phạ mùa dù lượn tháng 9 – Mù Cang Chải, bay dù lượn điểm bay Khau Phạ"
+  },
+  {
+    "slug": "song-da-quynh-nhai-cau-pa-uon",
+    "title": "Dọc sông Đà lên Quỳnh Nhai: cầu Pá Uôn và vùng lòng hồ thủy điện",
+    "description": "Cung đường men hồ thủy điện Sơn La lên cầu Pá Uôn cao nhất Việt Nam, chuyện những bản làng dời lên núi khi lòng hồ dâng nước.",
+    "tags": [
+      "tay-bac",
+      "son-la",
+      "ho"
+    ],
+    "date": "2025-06-14",
+    "featured": false,
+    "scene": "lake",
+    "km": 430,
+    "days": 3,
+    "bike": "Honda CB500X",
+    "route": "Hà Nội – Hòa Bình – dọc sông Đà – Phù Yên – Quỳnh Nhai – cầu Pá Uôn – Mường La, kết hợp thuyền thăm lòng hồ"
+  },
+  {
+    "slug": "a-pa-chai-cuc-tay",
+    "title": "A Pa Chải: chạm cực Tây, nơi một con gà gáy ba nước cùng nghe",
+    "description": "Hành trình dài nhất miền Bắc của mình: lên ngã ba biên giới Việt – Lào – Trung ở A Pa Chải, leo mốc số 0 và đêm ngủ đồn biên phòng.",
+    "tags": [
+      "tay-bac",
+      "dien-bien",
+      "bien-gioi",
+      "solo"
+    ],
+    "date": "2025-11-08",
+    "featured": true,
+    "scene": "sunset",
+    "km": 1150,
+    "days": 5,
+    "bike": "Honda CRF300L",
+    "route": "Hà Nội – Điện Biên Phủ – Mường Chà – Mường Nhé – A Pa Chải – mốc 0 ngã ba biên giới, xin phép biên phòng, đi solo 5 ngày"
+  },
+  {
+    "slug": "pu-luong-thung-lung-xanh",
+    "title": "Pù Luông: cung chạy chữa lành cho dân văn phòng",
+    "description": "Hai ngày rời Hà Nội về thung lũng Pù Luông, chạy giữa ruộng bậc thang xanh và guồng nước bản Đôn, ở bungalow nhìn thẳng ra núi.",
+    "tags": [
+      "bac-trung-bo",
+      "thanh-hoa",
+      "rice"
+    ],
+    "date": "2024-05-18",
+    "featured": false,
+    "scene": "forest",
+    "km": 350,
+    "days": 2,
+    "bike": "Honda Wave 110",
+    "route": "Hà Nội – Mai Châu – đèo Thung Khe – Pù Luông – bản Đôn – bản Hiêu – Cành Nàng, mùa lúa xanh tháng 5, đi xe Wave cho vui"
+  },
+  {
+    "slug": "nghia-lo-suoi-giang-tra-co-thu",
+    "title": "Suối Giàng: lên núi uống trà Shan tuyết trăm năm tuổi",
+    "description": "Chuyến đi ngắn từ Nghĩa Lộ lên Suối Giàng, ngồi cả buổi chiều với người Mông hái trà, hiểu vì sao một ấm Shan tuyết cổ thụ đáng giá cả chuyến đi.",
+    "tags": [
+      "tay-bac",
+      "yen-bai",
+      "van-hoa"
+    ],
+    "date": "2025-04-26",
+    "featured": false,
+    "scene": "fog",
+    "km": 280,
+    "days": 2,
+    "bike": "Honda Wave 110",
+    "route": "Hà Nội – Thanh Sơn – Nghĩa Lộ – Suối Giàng – đồi chè – về qua Văn Chấn, thăm cây trà Shan tuyết cổ thụ"
+  },
+  {
+    "slug": "phong-nha-ke-bang-hang-toi",
+    "title": "Phong Nha – Kẻ Bàng: chạy xuyên vườn quốc gia và một ngày làm người rừng",
+    "description": "Đường Hồ Chí Minh nhánh Tây xuyên Kẻ Bàng vắng đến mức nghe được tiếng vượn hú, kết hợp zipline hang Tối và động Phong Nha.",
+    "tags": [
+      "mien-trung",
+      "quang-binh",
+      "hang-dong"
+    ],
+    "date": "2025-07-19",
+    "featured": false,
+    "scene": "forest",
+    "km": 540,
+    "days": 4,
+    "bike": "Honda XR150L",
+    "route": "Đồng Hới – Phong Nha – đường HCM nhánh Tây – hang Tám Cô – động Phong Nha – hang Tối, đoạn xuyên rừng quốc gia tuyệt đối vắng"
+  },
+  {
+    "slug": "deo-hai-van-thien-ha-de-nhat-hung-quan",
+    "title": "Đèo Hải Vân: Thiên hạ đệ nhất hùng quan dưới mưa xuân",
+    "description": "Chạy Huế – Đà Nẵng qua đèo Hải Vân trong mưa phùn tháng 2, cổng trời Hải Vân Quan mới trùng tu và bài học về phanh đĩa ướt.",
+    "tags": [
+      "mien-trung",
+      "hue",
+      "deo",
+      "ven-bien"
+    ],
+    "date": "2025-02-22",
+    "featured": false,
+    "scene": "coast",
+    "km": 110,
+    "days": 1,
+    "bike": "Honda CB500X",
+    "route": "Huế – Lăng Cô – đèo Hải Vân – Hải Vân Quan – bán đảo Sơn Trà – Đà Nẵng, mưa phùn, kết hợp check-in làng Vân"
+  },
+  {
+    "slug": "buon-ma-thuot-mua-thu-hoach-ca-phe",
+    "title": "Buôn Ma Thuột mùa thu hoạch: ngủ giữa rẫy cà phê chín đỏ",
+    "description": "Tháng 11 ở Đắk Lắk: phụ một gia đình Ê Đê hái cà phê một buổi sáng, chạy qua thác Dray Nur và hiểu ly cà phê mỗi sáng từ đâu ra.",
+    "tags": [
+      "tay-nguyen",
+      "dak-lak",
+      "ca-phe"
+    ],
+    "date": "2024-11-30",
+    "featured": false,
+    "scene": "sunset",
+    "km": 380,
+    "days": 3,
+    "bike": "Honda Winner X",
+    "route": "Nha Trang – đèo Phượng Hoàng – Buôn Ma Thuột – thác Dray Nur – buôn Ako Dhông – hồ Lắk, mùa hái cà phê tháng 11"
+  },
+  {
+    "slug": "da-lat-deo-omega-hon-giao",
+    "title": "Đèo Omega: 33 km đổ từ rừng thông Đà Lạt xuống biển Nha Trang",
+    "description": "Khánh Lê – Hòn Giao – Omega, con đèo dài nhất Việt Nam: trên đỉnh 14 độ sương mù, chân đèo 32 độ nắng biển, tất cả trong một giờ chạy xe.",
+    "tags": [
+      "tay-nguyen",
+      "lam-dong",
+      "deo"
+    ],
+    "date": "2024-07-27",
+    "featured": true,
+    "scene": "fog",
+    "km": 140,
+    "days": 1,
+    "bike": "Honda CB500X",
+    "route": "Đà Lạt – Thái Phiên – đèo Omega (Khánh Lê) – Khánh Vĩnh – Nha Trang, chênh 1400 m độ cao, sương mù nửa trên đèo"
+  },
+  {
+    "slug": "ta-nang-phan-dung-bang-xe",
+    "title": "Mép Tà Năng – Phan Dũng bằng xe cào cào: đi được tới đâu?",
+    "description": "Thử chạy CRF300L men theo mép cung trekking nổi tiếng nhất miền Nam: đoạn nào xe đi được, đoạn nào phải quay đầu, và ranh giới với tự sát.",
+    "tags": [
+      "tay-nguyen",
+      "lam-dong",
+      "offroad"
+    ],
+    "date": "2025-03-29",
+    "featured": false,
+    "scene": "grassland",
+    "km": 290,
+    "days": 2,
+    "bike": "Honda CRF300L",
+    "route": "Đà Lạt – Tà Hine – Tà Năng – đồi Lính – ranh giới rừng Phan Dũng, offroad đồi cỏ, quay đầu ở dốc Trời Ơi"
+  },
+  {
+    "slug": "bao-loc-deo-va-do-c",
+    "title": "Đèo Bảo Lộc và B'Lao: trà, sương và những khúc cua tai tiếng",
+    "description": "Chạy Sài Gòn – Bảo Lộc qua con đèo nhiều tai nạn nhất QL20, ghé đồi chè Tâm Châu và chùa Linh Quy Pháp Ấn lúc bình minh.",
+    "tags": [
+      "tay-nguyen",
+      "lam-dong",
+      "deo"
+    ],
+    "date": "2024-08-10",
+    "featured": false,
+    "scene": "sunrise",
+    "km": 200,
+    "days": 2,
+    "bike": "Honda Winner X",
+    "route": "Sài Gòn – Dầu Giây – QL20 – đèo Bảo Lộc – đồi chè Tâm Châu – Linh Quy Pháp Ấn, xuất phát 4h sáng đón bình minh cổng trời"
+  },
+  {
+    "slug": "mui-ne-bau-trang-doi-cat",
+    "title": "Bàu Trắng: tập chạy cát ở tiểu sa mạc của Việt Nam",
+    "description": "Buổi học vỡ lòng chạy xe trên cát ở đồi cát Bàu Trắng: xì bớt lốp, giữ ga đều, ngã ba lần và cười nhiều hơn ngã.",
+    "tags": [
+      "nam-trung-bo",
+      "binh-thuan",
+      "offroad",
+      "dunes"
+    ],
+    "date": "2024-04-20",
+    "featured": false,
+    "scene": "dunes",
+    "km": 250,
+    "days": 2,
+    "bike": "Honda XR150L",
+    "route": "Sài Gòn – Phan Thiết – Mũi Né – Bàu Trắng – Hòa Thắng, đường ven biển ĐT716 qua đồi cát, tập kỹ thuật chạy cát"
+  },
+  {
+    "slug": "ho-tram-ho-coc-ven-bien",
+    "title": "Hồ Tràm – Hồ Cốc: cung ven biển chiều thứ Bảy của dân Sài Gòn",
+    "description": "Cung chạy quen nhất của mình: rời Sài Gòn trưa thứ Bảy, men biển Long Hải – Hồ Tràm, ăn hải sản làng chài và về trong đêm Chủ nhật.",
+    "tags": [
+      "dong-nam-bo",
+      "vung-tau",
+      "ven-bien"
+    ],
+    "date": "2024-03-16",
+    "featured": false,
+    "scene": "coast",
+    "km": 230,
+    "days": 2,
+    "bike": "Honda Winner X",
+    "route": "Sài Gòn – Long Thành – Long Hải – đèo Nước Ngọt – Hồ Tràm – Hồ Cốc – Bình Châu, cung ven biển quen thuộc cuối tuần"
+  },
+  {
+    "slug": "con-dao-xe-may-vong-quanh",
+    "title": "Mang xe ra Côn Đảo: 25 km đường ven biển đẹp lặng người",
+    "description": "Gửi xe theo tàu cao tốc ra Côn Đảo, ba ngày chạy hết mọi nhánh đường trên đảo, từ bãi Đầm Trầu đến mũi Cá Mập, và những buổi tối rất tĩnh.",
+    "tags": [
+      "dao",
+      "vung-tau",
+      "ven-bien"
+    ],
+    "date": "2025-05-24",
+    "featured": false,
+    "scene": "coast",
+    "km": 180,
+    "days": 3,
+    "bike": "Honda Winner X",
+    "route": "Sài Gòn – cảng Trần Đề – tàu cao tốc – Côn Đảo – bãi Đầm Trầu – mũi Cá Mập – vịnh Côn Sơn, gửi xe theo tàu"
+  },
+  {
+    "slug": "phu-quoc-bac-dao-nam-dao",
+    "title": "Phú Quốc ngoài resort: Bắc đảo hoang sơ và xưởng nước mắm trăm năm",
+    "description": "Thuê xe côn tay một tuần ở Phú Quốc, bỏ qua khu resort để chạy rừng quốc gia phía Bắc, làng chài Hàm Ninh và nhà thùng nước mắm.",
+    "tags": [
+      "dao",
+      "kien-giang",
+      "ven-bien"
+    ],
+    "date": "2024-12-21",
+    "featured": false,
+    "scene": "coast",
+    "km": 260,
+    "days": 4,
+    "bike": "Yamaha Exciter 155",
+    "route": "Bãi Trường – Gành Dầu – rừng quốc gia Phú Quốc – Bãi Thơm – Hàm Ninh – An Thới, tránh khu resort, tìm đường đất ven rừng"
+  },
+  {
+    "slug": "ninh-thuan-dt702-vinh-hy",
+    "title": "DT702 Ninh Thuận: con đường ven biển đẹp nhất phía Nam",
+    "description": "Cung Phan Rang – Vĩnh Hy – Bình Tiên men vườn quốc gia Núi Chúa: một bên vách đá một bên biển xanh ngọc, và vườn nho dưới chân đèo.",
+    "tags": [
+      "nam-trung-bo",
+      "ninh-thuan",
+      "ven-bien"
+    ],
+    "date": "2024-07-25",
+    "featured": false,
+    "scene": "coast",
+    "km": 130,
+    "days": 1,
+    "bike": "Honda CB500X",
+    "route": "Phan Rang – vịnh Vĩnh Hy – đèo DT702 qua Núi Chúa – Bình Tiên – hang Rái – vườn nho Thái An, biển xanh ngọc bích"
+  },
+  {
+    "slug": "quy-nhon-eo-gio-ky-co",
+    "title": "Quy Nhơn: Eo Gió, Kỳ Co và đoạn QL1D ôm biển về Sông Cầu",
+    "description": "Hai ngày quanh Quy Nhơn: vách đá Eo Gió buổi sáng, nước hai màu ở Kỳ Co, và đoạn quốc lộ 1D về Sông Cầu mà mình sẵn sàng chạy lại chục lần.",
+    "tags": [
+      "nam-trung-bo",
+      "binh-dinh",
+      "ven-bien"
+    ],
+    "date": "2025-06-28",
+    "featured": false,
+    "scene": "coast",
+    "km": 160,
+    "days": 2,
+    "bike": "Yamaha Exciter 155",
+    "route": "Quy Nhơn – Nhơn Lý – Eo Gió – Kỳ Co – QL1D – Sông Cầu – vịnh Xuân Đài, hải sản Nhơn Hải, biển hai màu Kỳ Co"
+  },
+  {
+    "slug": "phu-yen-ganh-da-dia-mui-dien",
+    "title": "Phú Yên: gành Đá Đĩa, Mũi Điện và bình minh đầu tiên trên đất liền",
+    "description": "Dậy 4 giờ sáng chạy ra hải đăng Mũi Điện đón bình minh sớm nhất Việt Nam, vòng qua gành Đá Đĩa và Bãi Xép của 'Tôi thấy hoa vàng trên cỏ xanh'.",
+    "tags": [
+      "nam-trung-bo",
+      "phu-yen",
+      "ven-bien"
+    ],
+    "date": "2025-07-05",
+    "featured": false,
+    "scene": "sunrise",
+    "km": 190,
+    "days": 2,
+    "bike": "Yamaha Exciter 155",
+    "route": "Tuy Hòa – Bãi Xép – gành Đá Đĩa – đầm Ô Loan – Vũng Rô – hải đăng Mũi Điện, đón bình minh cực Đông"
+  },
+  {
+    "slug": "nha-trang-deo-khanh-le-ve-dem",
+    "title": "Sai lầm để đời: đổ đèo Khánh Lê lúc 8 giờ tối",
+    "description": "Bài viết tự rút kinh nghiệm: vì sao đừng bao giờ đổ con đèo 33 km trong sương đêm, đèn pha độ thêm cứu mình thế nào, và checklist chạy đêm an toàn.",
+    "tags": [
+      "nam-trung-bo",
+      "khanh-hoa",
+      "deo",
+      "ky-nang"
+    ],
+    "date": "2024-07-28",
+    "featured": false,
+    "scene": "night",
+    "km": 140,
+    "days": 1,
+    "bike": "Honda CB500X",
+    "route": "Nha Trang – Khánh Vĩnh – đèo Khánh Lê trong đêm – Đà Lạt, sương mù dày, bài học an toàn chạy đêm"
+  },
+  {
+    "slug": "quang-ngai-ly-son-toi-hanh-tinh-khac",
+    "title": "Lý Sơn: mang xe máy ra hòn đảo núi lửa giữa biển",
+    "description": "Tàu cao tốc Sa Kỳ chở cả người lẫn xe ra Lý Sơn: miệng núi lửa Thới Lới, cánh đồng tỏi, cổng Tò Vò lúc hoàng hôn và đảo Bé nước trong vắt.",
+    "tags": [
+      "dao",
+      "quang-ngai",
+      "ven-bien"
+    ],
+    "date": "2025-06-07",
+    "featured": false,
+    "scene": "volcanic",
+    "km": 90,
+    "days": 2,
+    "bike": "Honda Wave 110",
+    "route": "Cảng Sa Kỳ – tàu ra Lý Sơn – đỉnh Thới Lới – cổng Tò Vò – chùa Hang – đảo Bé, thuê Wave trên đảo, hoàng hôn cổng Tò Vò"
+  },
+  {
+    "slug": "hue-a-luoi-duong-ho-chi-minh",
+    "title": "Huế lên A Lưới: đèo A Co và đoạn đường Hồ Chí Minh giữa mây",
+    "description": "Rời kinh thành Huế ngược lên A Lưới qua đèo A Co, thăm địa đạo Động So và nghe người Pa Cô kể chuyện dãy Trường Sơn những năm chiến tranh.",
+    "tags": [
+      "mien-trung",
+      "hue",
+      "deo",
+      "lich-su"
+    ],
+    "date": "2025-02-24",
+    "featured": false,
+    "scene": "fog",
+    "km": 150,
+    "days": 2,
+    "bike": "Honda CB500X",
+    "route": "Huế – QL49 – đèo A Co – A Lưới – đường HCM – địa đạo Động So – suối A Nôr, sương mù gần như quanh năm"
+  },
+  {
+    "slug": "thakhek-loop-lao-4-ngay",
+    "title": "Thakhek Loop nước Lào: 450 km và hang Kong Lor dài 7 cây số",
+    "description": "Lần đầu mang hộ chiếu đi phượt: vòng Thakhek Loop bằng xe thuê, xuyên hang sông Kong Lor trong bóng tối tuyệt đối và những đêm guesthouse 5 đô.",
+    "tags": [
+      "nuoc-ngoai",
+      "lao",
+      "loop"
+    ],
+    "date": "2025-12-13",
+    "featured": true,
+    "scene": "karst",
+    "km": 450,
+    "days": 4,
+    "bike": "Honda XR150L thuê",
+    "route": "Thakhek – Thalang – Nakai – hang Kong Lor – Khoun Kham – viewpoint Nakai – Thakhek, mùa khô tháng 12, thuê xe tại Thakhek"
+  },
+  {
+    "slug": "luang-prabang-bac-lao",
+    "title": "Bắc Lào chậm rãi: Luang Prabang, đèo bụi đỏ và lễ khất thực lúc tinh mơ",
+    "description": "Một tuần chạy từ cửa khẩu Tây Trang qua Muang Khua về Luang Prabang: đường bụi đỏ mịt mù, thác Kuang Si xanh ngọc và buổi Tak Bat im phăng phắc.",
+    "tags": [
+      "nuoc-ngoai",
+      "lao",
+      "solo"
+    ],
+    "date": "2025-12-06",
+    "featured": false,
+    "scene": "river",
+    "km": 620,
+    "days": 7,
+    "bike": "Honda CRF300L",
+    "route": "Điện Biên – cửa khẩu Tây Trang – Muang Khua – Nong Khiaw – Luang Prabang – thác Kuang Si, đường bụi đỏ, đi solo có mang giấy tờ xe"
+  },
+  {
+    "slug": "mae-hong-son-loop-thai-lan",
+    "title": "Mae Hong Son Loop: 1.864 khúc cua phía Bắc Thái Lan",
+    "description": "Thuê CB500X ở Chiang Mai chạy trọn Mae Hong Son Loop: Pai, Ban Rak Thai sát biên Myanmar, và con số 1.864 khúc cua không phải truyền thuyết.",
+    "tags": [
+      "nuoc-ngoai",
+      "thai-lan",
+      "loop",
+      "deo"
+    ],
+    "date": "2026-01-17",
+    "featured": false,
+    "scene": "sunset",
+    "km": 600,
+    "days": 5,
+    "bike": "Honda CB500X thuê",
+    "route": "Chiang Mai – Pai – Soppong – Mae Hong Son – Ban Rak Thai – Khun Yuam – Doi Inthanon – Chiang Mai, thuê xe ở Chiang Mai, mùa khô tháng 1"
+  },
+  {
+    "slug": "angkor-campuchia-bokor",
+    "title": "Campuchia hai tuần: từ đền Angkor đến cao nguyên ma Bokor",
+    "description": "Chạy xe từ cửa khẩu Mộc Bài qua Phnom Penh, Siem Reap rồi vòng xuống Kampot: bình minh Angkor Wat và khách sạn bỏ hoang trên đỉnh Bokor mù sương.",
+    "tags": [
+      "nuoc-ngoai",
+      "campuchia"
+    ],
+    "date": "2026-02-14",
+    "featured": false,
+    "scene": "temple",
+    "km": 1100,
+    "days": 12,
+    "bike": "Honda XR150L",
+    "route": "Mộc Bài – Phnom Penh – Kampong Thom – Siem Reap/Angkor – Battambang – Kampot – cao nguyên Bokor – Kep – Hà Tiên, giấy tờ xe qua cửa khẩu"
+  },
+  {
+    "slug": "sai-gon-nha-trang-duyen-hai",
+    "title": "Sài Gòn – Nha Trang đường ven biển: 480 km không chán một mét nào",
+    "description": "Bỏ QL1A, nối các tỉnh lộ ven biển từ Sài Gòn ra Nha Trang qua Hồ Tràm, Mũi Né, Cà Ná: lộ trình chi tiết từng đoạn rẽ cho ai muốn chạy theo.",
+    "tags": [
+      "nam-trung-bo",
+      "ven-bien",
+      "cam-nang"
+    ],
+    "date": "2024-07-24",
+    "featured": false,
+    "scene": "coast",
+    "km": 480,
+    "days": 2,
+    "bike": "Honda CB500X",
+    "route": "Sài Gòn – Cần Giờ – Hồ Tràm – LaGi – Mũi Né – Bàu Trắng – Cà Ná – Phan Rang – Cam Ranh – Nha Trang, né QL1A tối đa"
+  },
+  {
+    "slug": "xuyen-viet-10-ngay-sg-hn",
+    "title": "Xuyên Việt 10 ngày: nhật ký 1.900 km từ Sài Gòn ra Hà Nội",
+    "description": "Chuyến xuyên Việt đầu tiên: lịch trình từng ngày, chi phí thật, những đoạn đáng chạy chậm và những đoạn chỉ muốn vượt nhanh cho qua.",
+    "tags": [
+      "xuyen-viet",
+      "cam-nang",
+      "solo"
+    ],
+    "date": "2026-03-28",
+    "featured": true,
+    "scene": "sunrise",
+    "km": 1900,
+    "days": 10,
+    "bike": "Honda CB500X",
+    "route": "Sài Gòn – Bảo Lộc – Buôn Ma Thuột – Kon Tum – Khe Sanh – Phong Nha – Hà Tĩnh – Ninh Bình – Hà Nội, theo đường HCM là chính"
+  },
+  {
+    "slug": "ha-giang-mua-dong-tro-lai",
+    "title": "Trở lại Hà Giang giữa mùa đông: cao nguyên đá không dành cho khách vãng lai",
+    "description": "Hà Giang lần thứ tư, lần đầu giữa tháng 12: sương muối trên QL4C, chợ phiên Mèo Vạc co ro và lý do mùa đông mới là mùa thật nhất của đá.",
+    "tags": [
+      "dong-bac",
+      "ha-giang",
+      "mua-dong"
+    ],
+    "date": "2025-12-20",
+    "featured": false,
+    "scene": "night",
+    "km": 410,
+    "days": 4,
+    "bike": "Honda XR150L",
+    "route": "Hà Giang – Quản Bạ – Đồng Văn – chợ phiên Mèo Vạc – Lũng Cú – về xuôi, rét 3–5 độ, sương muối sáng sớm"
+  },
+  {
+    "slug": "cung-duong-da-nang-kham-duc-deo-lo-xo",
+    "title": "Đèo Lò Xo: con dốc dài 20 km mà cánh tài xế đường dài nể nhất",
+    "description": "Chạy đoạn đường HCM từ Khâm Đức vượt đèo Lò Xo sang Đắk Glei: vì sao con đèo này nhiều miếu thờ đến vậy và kỹ thuật ghìm số khi đổ dốc dài.",
+    "tags": [
+      "tay-nguyen",
+      "quang-nam",
+      "deo",
+      "ky-nang"
+    ],
+    "date": "2025-08-15",
+    "featured": false,
+    "scene": "forest",
+    "km": 230,
+    "days": 1,
+    "bike": "Honda CRF300L",
+    "route": "Đà Nẵng – Thạnh Mỹ – Khâm Đức – đèo Lò Xo – Đắk Glei, đường HCM, học cách ghìm số tránh cháy phanh dốc dài"
+  },
+  {
+    "slug": "ninh-binh-trang-an-mua-lua",
+    "title": "Ninh Bình một ngày: Tràng An, Tam Cốc và đầm sen Hang Múa",
+    "description": "Cung chạy ngắn nhất blog này nhưng không kém phần đã: 500 bậc Hang Múa nhìn xuống Tam Cốc mùa lúa vàng, và lý do nên đi ngày thường.",
+    "tags": [
+      "bac-bo",
+      "ninh-binh",
+      "rice"
+    ],
+    "date": "2024-06-01",
+    "featured": false,
+    "scene": "karst",
+    "km": 220,
+    "days": 1,
+    "bike": "Honda Wave 110",
+    "route": "Hà Nội – Tam Cốc – Hang Múa – Tràng An – Bái Đính – cố đô Hoa Lư, mùa lúa vàng đầu tháng 6, đi ngày thường tránh đông"
+  },
+  {
+    "slug": "bao-duong-xe-truoc-chuyen-di-dai",
+    "title": "Checklist bảo dưỡng xe trước mọi chuyến đi dài của mình",
+    "description": "Danh sách 25 hạng mục mình tự kiểm tra trước mỗi chuyến trên 500 km: từ nhông sên dĩa, má phanh đến cách xếp đồ chống nước, đúc kết sau 3 năm.",
+    "tags": [
+      "ky-nang",
+      "cam-nang",
+      "bao-duong"
+    ],
+    "date": "2026-04-18",
+    "featured": false,
+    "scene": "garage",
+    "km": 0,
+    "days": 0,
+    "bike": "Tất cả các xe",
+    "route": "Bài kỹ năng tổng hợp: checklist bảo dưỡng nhông sên dĩa, phanh, lốp, đèn, đồ nghề mang theo, cách xếp đồ chống nước, kinh nghiệm 3 năm"
+  }
+]

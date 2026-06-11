@@ -29,8 +29,8 @@ export default defineConfig({
     }),
   ],
   i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
+    locales: ["vi", "en"],
+    defaultLocale: "vi",
     routing: {
       prefixDefaultLocale: false,
     },
@@ -59,6 +59,16 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   fonts: [
+    {
+      name: "Archivo",
+      cssVariable: "--font-archivo",
+      provider: fontProviders.google(),
+      fallbacks: ["sans-serif"],
+      weights: [400, 500, 700, 900],
+      styles: ["normal", "italic"],
+      subsets: ["vietnamese", "latin"],
+      formats: ["woff2", "woff"],
+    },
     {
       name: "Google Sans Code",
       cssVariable: "--font-google-sans-code",
