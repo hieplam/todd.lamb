@@ -1,163 +1,58 @@
-# AstroPaper 📄
+# Hiệp Lâm Rides
 
-![AstroPaper](public/default-og.jpg)
-[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/community/file/1356898632249991861)
-![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![GitHub](https://img.shields.io/github/license/satnaing/astro-paper?color=%232F3741&style=for-the-badge)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white&style=for-the-badge)](https://conventionalcommits.org)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=for-the-badge)](http://commitizen.github.io/cz-cli/)
+![Hiệp Lâm Rides](public/default-og.jpg)
 
-AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme is designed and crafted based on [my personal blog](https://satnaing.dev/blog).
+Nhật ký những chuyến đi xe máy đường dài của Hiệp Lâm: 45 bài viết về các cung đường Việt Nam, Lào, Thái Lan và Campuchia. Site tĩnh dựng bằng [Astro 6](https://astro.build) (theme gốc [AstroPaper](https://github.com/satnaing/astro-paper)), Tailwind CSS 4, tìm kiếm Pagefind, OG image sinh tự động.
 
-Read [the blog posts](https://astro-paper.pages.dev/posts/) or check [the README Documentation Section](#-documentation) for more info.
+Blog deploy bằng Docker (nginx) sau lớp **HTTP Basic Auth**: người đọc phải đăng nhập mới xem được nội dung.
 
-## 🔥 Features
-
-- [x] type-safe markdown
-- [x] super fast performance
-- [x] accessible (Keyboard/VoiceOver)
-- [x] responsive (mobile ~ desktops)
-- [x] SEO-friendly
-- [x] light & dark mode
-- [x] static search ([Pagefind](https://pagefind.app/))
-- [x] draft posts & pagination
-- [x] sitemap & rss feed
-- [x] MDX support
-- [x] collapsible table of contents
-- [x] followed best practices
-- [x] highly customizable
-- [x] dynamic OG image generation for blog posts ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
-- [x] i18n ready
-
-_Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver** on Mac and **TalkBack** on Android. I couldn't test all other screen-readers out there. However, accessibility enhancements in AstroPaper should be working fine on others as well._
-
-## ✅ Lighthouse Score
-
-<p align="center">
-  <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fastro-paper.pages.dev%2F&form_factor=desktop">
-    <img width="710" alt="AstroPaper Lighthouse Score" src="AstroPaper-lighthouse-score.svg">
-  </a>
-</p>
-
-## 🚀 Project Structure
-
-Inside of AstroPaper, you'll see the following folders and files:
+## Phát triển
 
 ```bash
-/
-├── public/
-│   ├── pagefind/          # auto-generated on build
-│   ├── favicon.svg
-│   └── default-og.jpg
-├── src/
-│   ├── assets/
-│   │   ├── icons/
-│   │   └── images/
-│   ├── components/
-│   ├── content/
-│   │   ├── pages/
-│   │   │   └── about.md
-│   │   └── posts/
-│   │       └── some-blog-posts.md
-│   ├── i18n/
-│   ├── layouts/
-│   ├── pages/
-│   ├── scripts/
-│   ├── styles/
-│   ├── types/
-│   ├── utils/
-│   ├── config.ts
-│   └── content.config.ts
-├── astro-paper.config.ts  # user-defined configurations
-└── astro.config.ts
-```
-
-All blog posts are stored in the `src/content/posts/` directory. You can organise posts into subdirectories — the subdirectory name becomes part of the post URL.
-
-## 📖 Documentation
-
-Documentation can be read in two formats\_ _markdown_ & _blog post_.
-
-- Configuration - [markdown](src/content/posts/how-to-configure-astropaper-theme.md) | [blog post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
-- Add Posts - [markdown](src/content/posts/adding-new-post.md) | [blog post](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/)
-- Customize Color Schemes - [markdown](src/content/posts/customizing-astropaper-theme-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
-- Predefined Color Schemes - [markdown](src/content/posts/predefined-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/predefined-color-schemes/)
-
-## 💻 Tech Stack
-
-**Main Framework** - [Astro](https://astro.build/)  
-**Type Checking** - [TypeScript](https://www.typescriptlang.org/)  
-**Styling** - [TailwindCSS](https://tailwindcss.com/)  
-**UI/UX** - [Figma Design File](https://www.figma.com/community/file/1356898632249991861)  
-**Static Search** - [Pagefind](https://pagefind.app/)  
-**Icons** - [Tablers](https://tabler-icons.io/)  
-**Code Formatting** - [Prettier](https://prettier.io/)  
-**Deployment** - [Cloudflare Pages](https://pages.cloudflare.com/)  
-**Linting** - [ESLint](https://eslint.org)  
-**Dynamic OG images** - [Satori](https://github.com/vercel/satori) + [Sharp](https://sharp.pixelplumbing.com/) + [Astro Fonts](https://docs.astro.build/en/guides/fonts/)
-
-## 👨🏻‍💻 Running Locally
-
-You can start using this project locally by running the following command in your desired directory:
-
-```bash
-# bun
-bun create astro@latest -- --template satnaing/astro-paper
-
-# npm
-npm create astro@latest -- --template satnaing/astro-paper
-
-# yarn
-yarn create astro --template satnaing/astro-paper
-```
-
-Then start the project by running the following commands:
-
-```bash
-# install dependencies if you haven't done so in the previous step.
 bun install
-
-# start running the project
-bun dev
+bun run dev        # http://localhost:4321
+bun run build      # astro check + build + pagefind index
+bun run lint       # eslint
+bun run format     # prettier
 ```
 
-## Google Site Verification (optional)
+## Nội dung & hình ảnh
 
-You can add your [Google Site Verification HTML tag](https://support.google.com/webmasters/answer/9008080#meta_tag_verification&zippy=%2Chtml-tag) by setting `site.googleVerification` in `astro-paper.config.ts`:
+- Bài viết: `src/content/posts/*.md` (frontmatter validate bằng Zod trong `src/content.config.ts`).
+- Spec các chuyến đi: `scripts/trips.json` (slug, tiêu đề, lộ trình, scene minh họa).
+- Minh họa SVG sinh deterministic theo seed slug:
 
-```ts file="astro-paper.config.ts"
-export default defineAstroPaperConfig({
-  site: {
-    // ...
-    googleVerification: "your-google-site-verification-value",
-  },
-  // ...
-});
+```bash
+bun scripts/generate-post-images.ts
+# -> public/images/posts/<slug>/{hero,scene-1,scene-2}.svg
+# -> public/images/site/hero.svg + public/default-og.jpg
 ```
 
-> See [this discussion](https://github.com/satnaing/astro-paper/discussions/334#discussioncomment-10139247) for adding AstroPaper to the Google Search Console.
+Quy ước: bài có file `public/images/posts/<slug>/hero.svg` sẽ tự hiện hero image ở đầu bài và thumbnail trên card (xem `src/utils/getPostHeroImage.ts`).
 
-## 🧞 Commands
+## Docker & đăng nhập
 
-All commands are run from the root of the project, from a terminal:
+Image build 2 stage: Bun build site tĩnh, nginx alpine serve `dist/` với basic auth trên toàn site (trừ `/healthz` cho healthcheck).
 
-| Command           | Action                                                                                                                           |
-| :---------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| `bun install`     | Installs dependencies                                                                                                            |
-| `bun dev`         | Starts local dev server at `localhost:4321`                                                                                      |
-| `bun run build`   | Type-checks, builds the site, runs Pagefind indexing, and copies the index to `public/pagefind/`                                 |
-| `bun run preview` | Preview your build locally, before deploying                                                                                     |
-| `bun run sync`    | Generates TypeScript types for all Astro modules. [Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
-| `bunx astro ...`  | Run CLI commands like `astro add`, `astro check`                                                                                 |
+```bash
+docker build -t hieplam-rides .
+docker run -p 8080:80 -e AUTH_USER=rider -e AUTH_PASSWORD=secret hieplam-rides
+# curl -I localhost:8080          -> 401
+# curl -u rider:secret localhost:8080 -> 200
+```
 
-## ✨ Feedback & Suggestions
+| Env             | Mặc định                     | Ý nghĩa       |
+| --------------- | ---------------------------- | ------------- |
+| `AUTH_USER`     | `rider`                      | Tên đăng nhập |
+| `AUTH_PASSWORD` | (sinh ngẫu nhiên, in ra log) | Mật khẩu      |
 
-If you have any suggestions/feedback, you can contact me via [my email](mailto:satnaingdev+astropaper@gmail.com). Alternatively, feel free to open an issue if you find bugs or want to request new features.
+## Deploy lên Dokploy
 
-## 📜 License
+1. Tạo **Application** mới từ git repo này, build type **Dockerfile**.
+2. Đặt env `AUTH_USER` / `AUTH_PASSWORD` trong tab Environment.
+3. Gắn domain, bật HTTPS, deploy. Healthcheck dùng đường dẫn `/healthz`.
+4. Cập nhật `site.url` trong `astro-paper.config.ts` theo domain thật rồi redeploy (canonical URL/sitemap/RSS).
 
-Licensed under the MIT License, Copyright © 2026
+## Kiến trúc
 
----
-
-Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [contributors](https://github.com/satnaing/astro-paper/graphs/contributors).
+Tài liệu kiến trúc C3 nằm trong `.c3/` — thao tác qua CLI `c3x` (xem `CLAUDE.md`). Giấy phép: [MIT](LICENSE) — theme gốc của [Sat Naing](https://github.com/satnaing).

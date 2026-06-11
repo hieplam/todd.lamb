@@ -1,6 +1,6 @@
 ---
 id: c3-105
-c3-seal: e038b49669ac9690c091f81f0d2aacb0d3c9c01ff3c11fa1794d03e071f35249
+c3-seal: f1143ae155b6de5eb57192fd925ac10cdb5483a5fe48ebbfbeddbc56332fbb34
 title: utils
 type: component
 category: foundation
@@ -25,7 +25,7 @@ Provide pure TypeScript helper functions for post filtering, sorting, tag extrac
 
 ## Purpose
 
-Owns the following utilities: postFilter.ts (excludes drafts and future-dated posts), getSortedPosts.ts (sorts posts by pubDatetime desc), getUniqueTags.ts (extracts deduplicated tag list), getPostPaths.ts (generates static path params for post routes), slugify.ts (converts titles to URL-safe slugs), withBase.ts (prepends base URL), resolveDefaultOgImagePath.ts (resolves fallback OG image), getFontPathByWeight.ts (locates font file by weight for Satori), toTransitionName.ts (generates view transition names), transformers/fileName.js (Shiki code block filename transformer). Does NOT own route templates or content schemas.
+Owns the following utilities: postFilter.ts (excludes drafts and future-dated posts), getSortedPosts.ts (sorts posts by pubDatetime desc), getUniqueTags.ts (extracts deduplicated tag list), getPostPaths.ts (generates static path params for post routes), slugify.ts (converts titles to URL-safe slugs), withBase.ts (prepends base URL), resolveDefaultOgImagePath.ts (resolves fallback OG image), getFontPathByWeight.ts exporting getFontSourcesByWeight (collects all unicode-range subset font files per weight for Satori), getPostHeroImage.ts (resolves the conventional public/images/posts/<id>/hero.svg URL; performs a build-time-only fs.existsSync check, the single deliberate exception to the pure-function rule), toTransitionName.ts (generates view transition names), transformers/fileName.js (Shiki code block filename transformer). Does NOT own route templates or content schemas.
 
 ## Foundational Flow
 

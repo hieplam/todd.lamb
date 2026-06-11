@@ -1,11 +1,11 @@
 ---
 id: c3-112
-c3-seal: 6c45d21e969e0d3b9563a5b321853adf8ebdd28af1fb8f5e096294a977c62a4d
+c3-seal: 209f7a027c976d18db205ec65b0089dfbf254ee149fead836fd0c8a1c4d5d636
 title: og-image
 type: component
 category: feature
 parent: c3-1
-goal: Generate static 1200x630 PNG Open Graph images at build time using Satori (JSX-to-SVG) and Sharp (SVG-to-PNG) for both the site default and per-post images, fetching the Google Sans Code font via Astro's font API.
+goal: Generate static 1200x630 PNG Open Graph images at build time using Satori (JSX-to-SVG) and Sharp (SVG-to-PNG) for both the site default and per-post images, fetching every Archivo font subset (latin + vietnamese) via Astro's font API so Vietnamese titles render correctly.
 uses:
     - ref-content-schema
     - ref-og-image-generation
@@ -13,7 +13,7 @@ uses:
 
 ## Goal
 
-Generate static 1200x630 PNG Open Graph images at build time using Satori (JSX-to-SVG) and Sharp (SVG-to-PNG) for both the site default and per-post images, fetching the Google Sans Code font via Astro's font API.
+Generate static 1200x630 PNG Open Graph images at build time using Satori (JSX-to-SVG) and Sharp (SVG-to-PNG) for both the site default and per-post images, fetching every Archivo font subset (latin + vietnamese) via Astro's font API so Vietnamese titles render correctly.
 
 ## Parent Fit
 
@@ -32,7 +32,7 @@ Owns the two Astro API route endpoints that produce PNG responses via Satori and
 
 | Aspect | Detail | Reference |
 | --- | --- | --- |
-| Preconditions | Google Sans Code font configured in astro.config.ts fonts array and available via astro:assets fontData | c3-1 |
+| Preconditions | Archivo font (latin + vietnamese subsets, woff/ttf formats) configured in astro.config.ts fonts array and available via astro:assets fontData | c3-1 |
 | Inputs | astro:assets fontData for font file resolution; post entry data (title, author) for per-post OG | c3-101 |
 | State | Stateless API routes; each request generates image fresh from inputs | c3-1 |
 | Shared deps | satori package for SVG generation; sharp package for PNG conversion; src/config.ts for site metadata | c3-105 |
@@ -42,9 +42,9 @@ Owns the two Astro API route endpoints that produce PNG responses via Satori and
 | Aspect | Detail | Reference |
 | --- | --- | --- |
 | Primary path | Astro build calls GET handler, Satori renders JSX-like object tree to SVG, Sharp converts SVG to PNG buffer, returned as image/png response | c3-1 |
-| Font loading | getFontPathByWeight locates font file URL from astro:assets fontData, fetched as ArrayBuffer for Satori embedFont | c3-105 |
+| Font loading | getFontSourcesByWeight collects every unicode-range subset file (latin + vietnamese) for a weight from astro:assets fontData; each is fetched as ArrayBuffer and passed to Satori so Vietnamese diacritics render | c3-105 |
 | Per-post OG | posts/[...slug]/index.png.ts receives slug param, queries collection entry, renders post title and author in OG layout | c3-101 |
-| Fallback | If per-post ogImage frontmatter field is set, layout uses that instead of the generated PNG endpoint | c3-101 |
+| Fallback | If per-post ogImage frontmatter field is set, layout uses that instead of the generated PNG endpoint | c3-1 |
 
 ## Governance
 

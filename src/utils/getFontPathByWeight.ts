@@ -1,22 +1,29 @@
 import type { FontData } from "astro:assets";
 
-export function getFontPathByWeight(
+/**
+ * Returns one font file URL per FontData entry matching the weight/style —
+ * i.e. every unicode-range subset (latin, vietnamese, ...). Satori needs all
+ * of them to render Vietnamese diacritics, and it cannot parse woff2, so
+ * woff/ttf/otf sources are preferred.
+ */
+export function getFontSourcesByWeight(
   fonts: FontData[],
   weight: number,
-  options?: {
-    style?: "normal" | "italic";
-    format?: string;
-  }
-): string | undefined {
+  options?: { style?: "normal" | "italic" }
+): string[] {
   const style = options?.style ?? "normal";
-  const format = options?.format ?? "truetype";
+  const satoriFormats = new Set(["truetype", "opentype", "woff"]);
+  const urls: string[] = [];
 
   for (const font of fonts) {
     if (font.weight === String(weight) && font.style === style) {
-      const src = font.src.find(file => file.format === format) ?? font.src[0];
-      if (src) return src.url;
+      const src =
+        font.src.find(
+          file => file.format !== undefined && satoriFormats.has(file.format)
+        ) ?? font.src.find(file => file.format !== "woff2");
+      if (src) urls.push(src.url);
     }
   }
 
-  return undefined;
+  return urls;
 }

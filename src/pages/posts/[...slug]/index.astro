@@ -6,6 +6,7 @@ import Footer from "@/components/Footer.astro";
 import Datetime from "@/components/Datetime.astro";
 import Tag from "@/components/Tag.astro";
 import { getPostSlug, getPostUrl } from "@/utils/getPostPaths";
+import { getPostHeroImage } from "@/utils/getPostHeroImage";
 import { getSortedPosts } from "@/utils/getSortedPosts";
 import { slugifyStr } from "@/utils/slugify";
 import { toTransitionName } from "@/utils/toTransitionName";
@@ -73,6 +74,8 @@ const {
 
 const { Content } = await render(post);
 
+const heroImage = getPostHeroImage(post.id);
+
 let ogImageUrl: string | undefined;
 
 if (typeof initOgImage === "string") {
@@ -113,7 +116,7 @@ const ogImage = ogImageUrl
   >
     <h1
       style={{ viewTransitionName: toTransitionName(title) }}
-      class="text-accent inline-block text-2xl font-bold sm:text-3xl"
+      class="inline-block text-2xl font-black tracking-tight sm:text-3xl"
     >
       {title}
     </h1>
@@ -131,6 +134,18 @@ const ogImage = ogImageUrl
       </span>
       <EditPost {hideEditPost} {post} class="max-sm:hidden" />
     </div>
+
+    {
+      heroImage && (
+        <img
+          src={heroImage}
+          alt=""
+          width="1600"
+          height="900"
+          class="border-border mt-4 aspect-[21/9] w-full rounded-xl border object-cover"
+        />
+      )
+    }
 
     <article
       id="article"

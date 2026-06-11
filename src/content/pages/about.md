@@ -1,37 +1,27 @@
 ---
-title: "About"
-description: "A bit about me and this blog."
+title: "Giới thiệu"
+description: "Mình là Hiệp, và đây là nhật ký những chuyến đi xe máy đường dài."
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Mình là Hiệp. Ngày thường mình viết code, cuối tuần và những kỳ nghỉ dài thì mình chạy xe.
 
-![Astro Paper](@/assets/images/astropaper-og.jpg)
+![Minh họa con đường đèo lúc hoàng hôn](/images/site/hero.svg)
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+Blog này bắt đầu từ một thói quen nhỏ: sau mỗi chuyến đi, mình ghi lại lộ trình, mấy chỗ đổ xăng, quán cơm ngon, đoạn đường xấu và những chuyện lặt vặt dọc đường, để lần sau đi đỡ quên và bạn bè hỏi thì có cái gửi. Ghi mãi thành nhiều, nên mình gom hết về đây.
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+## Mình chạy những đâu
 
-## Features
+- **Đông Bắc, Tây Bắc**: Hà Giang (đi lại bốn lần vẫn chưa chán), Y Tý, Mù Cang Chải, Tà Xùa, Cao Bằng, Bình Liêu, A Pa Chải.
+- **Miền Trung, Tây Nguyên**: đường Hồ Chí Minh, Trường Sơn Đông, Măng Đen, đèo Omega, đèo Lò Xo.
+- **Duyên hải và hải đảo**: DT702 Ninh Thuận, QL1D Quy Nhơn, Lý Sơn, Côn Đảo, Phú Quốc.
+- **Ngoài biên giới**: Thakhek Loop và Bắc Lào, Mae Hong Son Loop bên Thái, vòng Campuchia qua Angkor và Bokor.
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+## Xe cộ
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+Tùy chuyến mà mình chọn xe: XR150L và CRF300L cho đường đất, CB500X cho những chặng dài, Winner X và cả con Wave 110 cho những cung thong thả. Xe nào cũng từng nằm đường ít nhất một lần, và bài học từ những lần đó đều có trong mục [kỹ năng](/tags/ky-nang).
 
-and so much more.
+## Về các bài viết
 
-## Show your support
+Mỗi bài là một chuyến đi có thật, theo cùng một tinh thần: lộ trình cụ thể, chi phí thật, kinh nghiệm thật, không tô hồng. Hình minh họa trong blog do mình dựng lại theo phong cảnh từng cung đường.
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+Có góp ý hay muốn hỏi đường, cứ gửi mail cho mình qua liên kết dưới chân trang.

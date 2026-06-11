@@ -44,7 +44,14 @@ const rssHref = getRelativeLocaleUrl(
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
 
-    <!-- Font -->
+    <!-- Fonts: Archivo carries display/body (Vietnamese subset), Google Sans Code stays for code blocks + OG pipeline -->
+    <Font
+      cssVariable="--font-archivo"
+      preload={[
+        { subset: "vietnamese", weight: 400, style: "normal" },
+        { subset: "vietnamese", weight: 900, style: "normal" },
+      ]}
+    />
     <Font
       cssVariable="--font-google-sans-code"
       preload={[{ subset: "latin", weight: 400, style: "normal" }]}

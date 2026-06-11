@@ -7,28 +7,35 @@
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-border: var(--border);
-  --font-app: var(--font-google-sans-code);
+  --font-app: var(--font-archivo);
+  --font-code: var(--font-google-sans-code);
 }
+
+/*
+ * Adventure palette. Light mode is daylight on tarmac: a true off-white
+ * (near-zero chroma, not cream) with rust as the single accent. Dark mode
+ * is a night ride: warm asphalt black with headlight amber.
+ */
 
 /* Light theme values */
 :root,
 [data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
-  --accent-foreground: #ffffff;
-  --muted: #e6e6e6;
-  --muted-foreground: #6b7280;
-  --border: #ece9e9;
+  --background: oklch(97.5% 0.003 95);
+  --foreground: oklch(26% 0.02 50);
+  --accent: oklch(50% 0.145 42);
+  --accent-foreground: oklch(98% 0.005 90);
+  --muted: oklch(92.5% 0.008 80);
+  --muted-foreground: oklch(45% 0.015 55);
+  --border: oklch(88% 0.01 75);
 }
 
 /* Dark theme values */
 [data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --accent-foreground: #ffffff;
-  --muted: #343f60;
-  --muted-foreground: #afb9ca;
-  --border: #ab4b08;
+  --background: oklch(21% 0.012 55);
+  --foreground: oklch(92.5% 0.01 85);
+  --accent: oklch(78% 0.16 70);
+  --accent-foreground: oklch(23% 0.04 60);
+  --muted: oklch(29% 0.015 55);
+  --muted-foreground: oklch(73% 0.02 75);
+  --border: oklch(35% 0.018 60);
 }
