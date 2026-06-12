@@ -1,6 +1,6 @@
-# Hiệp Lâm Rides
+# Hiệp Lâm Riders
 
-![Hiệp Lâm Rides](public/default-og.jpg)
+![Hiệp Lâm Riders](public/default-og.jpg)
 
 Nhật ký những chuyến đi xe máy đường dài của Hiệp Lâm: 45 bài viết về các cung đường Việt Nam, Lào, Thái Lan và Campuchia. Site tĩnh dựng bằng [Astro 6](https://astro.build) (theme gốc [AstroPaper](https://github.com/satnaing/astro-paper)), Tailwind CSS 4, tìm kiếm Pagefind, OG image sinh tự động.
 
