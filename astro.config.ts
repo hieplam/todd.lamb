@@ -19,8 +19,14 @@ import {
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import config from "./astro-paper.config";
 
+// GitHub Pages serves this repo under a sub-path (e.g. /todd.lamb). Split the
+// configured public URL into `site` (origin) and `base` (path) so every asset,
+// link, RSS item and the Pagefind bundle resolve under the deployed prefix.
+const deployUrl = new URL(config.site.url);
+
 export default defineConfig({
-  site: config.site.url,
+  site: deployUrl.origin,
+  base: deployUrl.pathname,
   integrations: [
     mdx(),
     sitemap({

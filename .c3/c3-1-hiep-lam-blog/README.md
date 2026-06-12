@@ -1,6 +1,6 @@
 ---
 id: c3-1
-c3-seal: 4ff1ab69b7e0e4ffeaefb024f18048f885d57cf7f3784141753b6282a305f5ab
+c3-seal: 57f145b6082f97d64ae066ab313e55f5c591ede46079fea431bf1babde2076a0
 title: Hiep Lam Blog
 type: container
 boundary: service
@@ -21,7 +21,7 @@ Serve as the single Astro 6 static site that builds all blog content, routes, an
 | c3-103 | UI Components | Foundation | active | Shared presentational Astro components (Header, Footer, Card with hero thumbnails, Pagination, etc.) |
 | c3-104 | Styles | Foundation | active | Global CSS, typography, and adventure-palette theme tokens consumed by layouts and components |
 | c3-105 | Utils | Foundation | active | Pure TypeScript helpers for post filtering, sorting, tags, slugs, hero-image resolution, and font source lookup |
-| c3-106 | CI & Release Automation | Foundation | active | GitHub Actions CI (lint/format/build) plus release-please for conventional-commit-driven versioning, CHANGELOG, tags, and GitHub Releases |
+| c3-106 | CI & Release Automation | Foundation | active | GitHub Actions CI (lint/format/build), release-please for conventional-commit-driven versioning/CHANGELOG/tags/Releases, plus deploy.yml publishing the static build to GitHub Pages |
 | c3-107 | Deployment | Foundation | active | Two-stage Docker image (bun build, nginx runtime) gating the whole site behind HTTP Basic Auth, deployed via Dokploy |
 | c3-110 | Pages & Routing | Feature | active | File-based routes for index, post list/detail, tags, archives, search, about, RSS, robots, and OG endpoints |
 | c3-111 | Internationalization | Feature | active | Locale-keyed UI strings loaded at build time; Vietnamese default with English fallback |
