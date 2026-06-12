@@ -1,16 +1,16 @@
 ---
 id: c3-1
-c3-seal: 57f145b6082f97d64ae066ab313e55f5c591ede46079fea431bf1babde2076a0
+c3-seal: 731d8e5b5fd444f89ff769bd9fdd9cfadd33ffd7daa6f868092979541c8fcc30
 title: Hiep Lam Blog
 type: container
 boundary: service
 parent: c3-0
-goal: Serve as the single Astro 6 static site that builds all blog content, routes, and assets into a fully-static output, packaged as a Docker image (nginx + HTTP Basic Auth) and deployed via Dokploy. Provides a Vietnamese-language adventure-motorcycle travel blog named "Hiệp Lâm Rides" with type-safe content collections, Pagefind search, generated SVG scenery illustrations, and dynamic per-post OG images.
+goal: Serve as the single Astro 6 static site that builds all blog content, routes, and assets into a fully-static output, packaged as a Docker image (nginx + HTTP Basic Auth) and deployed via Dokploy. Provides a Vietnamese-language adventure-motorcycle travel blog named "Hiệp Lâm Riders" with type-safe content collections, Pagefind search, generated SVG scenery illustrations, and dynamic per-post OG images.
 ---
 
 ## Goal
 
-Serve as the single Astro 6 static site that builds all blog content, routes, and assets into a fully-static output, packaged as a Docker image (nginx + HTTP Basic Auth) and deployed via Dokploy. Provides a Vietnamese-language adventure-motorcycle travel blog named "Hiệp Lâm Rides" with type-safe content collections, Pagefind search, generated SVG scenery illustrations, and dynamic per-post OG images.
+Serve as the single Astro 6 static site that builds all blog content, routes, and assets into a fully-static output, packaged as a Docker image (nginx + HTTP Basic Auth) and deployed via Dokploy. Provides a Vietnamese-language adventure-motorcycle travel blog named "Hiệp Lâm Riders" with type-safe content collections, Pagefind search, generated SVG scenery illustrations, and dynamic per-post OG images.
 
 ## Components
 
