@@ -1,18 +1,18 @@
 ---
 id: c3-106
-c3-seal: 86147d76aa208b766d23a5ae3cf4d2a9c54fdc34fe6fd2c0f05a55a0ca29139c
+c3-seal: 93203e057e0742b4cdf6e7b1c2a9fc1d6ffe832100b47b42e5fbd714c4294b88
 title: ci-release
 type: component
 category: foundation
 parent: c3-1
-goal: Automate continuous-integration checks and conventional-commit-driven releases for the blog via GitHub Actions.
+goal: Automate continuous-integration checks, conventional-commit-driven releases, and GitHub Pages publishing for the blog via GitHub Actions.
 uses:
     - rule-prettier-format
 ---
 
 ## Goal
 
-Automate continuous-integration checks and conventional-commit-driven releases for the blog via GitHub Actions.
+Automate continuous-integration checks, conventional-commit-driven releases, and GitHub Pages publishing for the blog via GitHub Actions.
 
 ## Parent Fit
 
@@ -20,12 +20,12 @@ Automate continuous-integration checks and conventional-commit-driven releases f
 | --- | --- |
 | Container | Hiep Lam Blog (c3-1) |
 | Category | Foundation (06) |
-| Owned files | .github/workflows/ci.yml, .github/workflows/release-please.yml, release-please-config.json, .release-please-manifest.json |
-| Depended on by | All components — the delivery gate (lint/format/build) and the release process apply repo-wide |
+| Owned files | .github/workflows/ci.yml, .github/workflows/release-please.yml, .github/workflows/deploy.yml, release-please-config.json, .release-please-manifest.json |
+| Depended on by | All components — the delivery gate (lint/format/build), the release process, and the GitHub Pages publish apply repo-wide |
 
 ## Purpose
 
-Owns the GitHub Actions delivery pipeline. ci.yml runs eslint, prettier --check, and the bun-based Astro build on every push and pull request; release-please.yml together with release-please-config.json and .release-please-manifest.json automate version bumps, CHANGELOG.md generation, git tags, and GitHub Releases derived from Conventional Commit messages. Does NOT own application source, the Astro build configuration (astro.config.ts), or the Docker/compose deployment images.
+Owns the GitHub Actions delivery pipeline. ci.yml runs eslint, prettier --check, and the bun-based Astro build on every push and pull request; release-please.yml together with release-please-config.json and .release-please-manifest.json automate version bumps, CHANGELOG.md generation, git tags, and GitHub Releases derived from Conventional Commit messages. deploy.yml is the GitHub Pages publish path: on push to main (or manual dispatch) it runs `bun run build` and publishes the static `dist/` output to GitHub Pages via actions/upload-pages-artifact + actions/deploy-pages, under the repo sub-path base configured in astro.config.ts. GitHub Pages is a standalone static-hosting target parallel to the Docker/Dokploy serving layer (c3-107); the two do not share runtime. Does NOT own application source, the Astro build configuration (astro.config.ts), or the Docker/compose deployment images.
 
 ## Foundational Flow
 
@@ -58,6 +58,7 @@ Owns the GitHub Actions delivery pipeline. ci.yml runs eslint, prettier --check,
 | --- | --- | --- | --- | --- |
 | ci.yml status checks | OUT | Lint, format check, and build must pass before a PR merges to main | GitHub PR status checks | .github/workflows/ci.yml |
 | release-please PR | OUT | Produces a version bump + CHANGELOG entry + GitHub Release when merged | git tags / GitHub Releases | .github/workflows/release-please.yml + release-please-config.json |
+| deploy.yml Pages publish | OUT | On push to main, builds with bun run build and publishes dist/ to GitHub Pages; a failed build (incl. astro check) blocks the deploy | GitHub Pages environment at the site.url sub-path; repo Settings → Pages → Source must be "GitHub Actions" | .github/workflows/deploy.yml |
 
 ## Change Safety
 

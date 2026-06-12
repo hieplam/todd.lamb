@@ -2,8 +2,9 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    // Update this to the public URL of the Dokploy deployment.
-    url: "https://blog.hieplam.dev/",
+    // Canonical public URL. GitHub Pages serves this project under the repo
+    // sub-path; astro.config.ts derives `site` (origin) and `base` (path) from it.
+    url: "https://hieplam.github.io/todd.lamb/",
     title: "Hiệp Lâm Rides",
     description:
       "Nhật ký những chuyến đi xe máy đường dài: đèo dốc Tây Bắc, cao nguyên đá Hà Giang, duyên hải miền Trung và những cung đường ngoài biên giới.",

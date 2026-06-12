@@ -59,6 +59,16 @@ docker run -p 8080:80 -e AUTH_PASSWORD=secret hieplam-rides
 3. Gắn domain, bật HTTPS, deploy. Healthcheck dùng đường dẫn `/healthz`.
 4. Cập nhật `site.url` trong `astro-paper.config.ts` theo domain thật rồi redeploy (canonical URL/sitemap/RSS).
 
+## Deploy lên GitHub Pages
+
+Blog cũng deploy được lên GitHub Pages (miễn phí, không cần hạ tầng) tại `https://hieplam.github.io/todd.lamb`.
+
+1. Vào **Settings → Pages → Source** và chọn **GitHub Actions**.
+2. Mỗi lần push lên `main`, workflow `.github/workflows/deploy.yml` sẽ chạy `bun run build` và xuất bản `dist/`.
+3. URL công khai lấy từ `site.url` trong `astro-paper.config.ts`; `astro.config.ts` tự tách thành `site` (origin) và `base` (`/todd.lamb`) nên mọi liên kết, ảnh, RSS và ô tìm kiếm Pagefind đều chạy đúng dưới sub-path.
+
+> Đổi tên repo → nhớ cập nhật `site.url` cho khớp `base` mới.
+
 ## Kiến trúc
 
 Tài liệu kiến trúc C3 nằm trong `.c3/` — thao tác qua CLI `c3x` (xem `CLAUDE.md`). Giấy phép: [MIT](LICENSE) — theme gốc của [Sat Naing](https://github.com/satnaing).
