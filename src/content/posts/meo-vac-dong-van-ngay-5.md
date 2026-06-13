@@ -35,6 +35,8 @@ Con R1250GS lăn qua những khúc cua tay áo bình tĩnh hơn hôm qua. Ngày 
 
 Mình vào Đồng Văn lúc khoảng 9h, gửi xe ở bãi đất trống gần chợ — chỗ này rộng, bác trông xe người địa phương, 20 nghìn cả buổi sáng, không lo gì với một chiếc xe to.
 
+![Đá tai mèo xám lởm chởm xếp tầng — đặc trưng của cao nguyên đá Đồng Văn](/images/posts/meo-vac-dong-van-ngay-5/da-tai-meo.jpg)
+
 ## Cột cờ Lũng Cú — 389 bậc, một tầm nhìn
 
 Từ Đồng Văn lên đến chân cột cờ Lũng Cú khoảng 24 km theo hướng bắc, đường nhựa tốt, ít xe, đi qua một vài bản H'Mông yên tĩnh. Không phải đèo dựng đứng như Mã Pí Lèng, nhưng cao nguyên đá cứ hiện ra mỗi khúc quẹo: bờ hoa tam giác mạch đã hết mùa nhưng vách núi vẫn xanh rêu xen đá trắng.
@@ -52,6 +54,8 @@ Từ Lũng Cú về lại Đồng Văn, mình tạt vào cột mốc số 0 — 
 Chiều mình rảo phố cổ Đồng Văn — khu phố đá hơn 100 tuổi, nhà trình tường mái ngói rêu phong, hàng quán nhỏ bán rượu ngô và thắng cố. Mình ghé dinh thự họ Vương, tức "dinh vua Mèo" Vương Chí Sình: công trình xây từ đầu thế kỷ 20, tường đất dày, cổng đá khổng lồ, cây mận cổ thụ trong sân đứng im không biết bao nhiêu mùa. Vé vào 20 nghìn. Nên đi, không phải vì "đã đến thì đi cho biết" mà vì kiến trúc thật sự đáng nhìn.
 
 Tối, mình ăn thắng cố ở quán trong phố cổ — cái mùi đặc trưng không phải ai cũng ổn, nhưng mình đã quen từ lần trước lên đây. Một bát, một chén rượu ngô, ngồi nhìn phố đá lên đèn. Ngày 90 km mà cảm giác no đầy hơn nhiều ngày 200 km.
+
+![Đoàn xe đỗ trong sân một dinh thự cổ trình tường ở Đồng Văn, giàn hoa giấy đỏ rủ xuống](/images/posts/meo-vac-dong-van-ngay-5/san-nha-co.jpg)
 
 ## Lưu ý nếu bạn đi cung này
 

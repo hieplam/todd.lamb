@@ -29,6 +29,8 @@ Buổi tối trước khi đi, mình đứng trong gara nhìn con R1250GS đã c
 
 Vòng cung này nối hai vùng mà dân xe máy thường đi tách rời nhau: **Đông Bắc** (Bình Liêu, Lạng Sơn, Cao Bằng — nhiều cung biên giới vắng người) và **cao nguyên đá Hà Giang** (Mèo Vạc, Đồng Văn, Lũng Cú). Thay vì đi ra đi về một cung, mình ghép chúng thành một vòng khép kín, lên theo phía đông và về theo phía tây qua Bắc Kạn. Nhờ vậy gần như không phải chạy lại đoạn đường nào hai lần.
 
+![Mắt Thần Núi (núi Thủng) ở Trùng Khánh, Cao Bằng — một trong những cảnh hùng vĩ nhất của cung Đông Bắc, ghé trong ngày 3](/images/posts/dong-bac-ha-giang-vong-cung-7-ngay/mat-than-nui.jpg)
+
 ## Lịch trình 7 ngày
 
 1. **Ngày 1 — Cát Bà → Bình Liêu.** Xuống phà rời đảo, qua Hải Phòng rồi men về góc đông bắc tới Bình Liêu, "Sa Pa của Quảng Ninh". → [Đọc nhật ký ngày 1](/posts/cat-ba-binh-lieu-ngay-1/)

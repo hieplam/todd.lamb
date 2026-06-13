@@ -16,6 +16,8 @@ Cái khoảnh khắc đó — dắt xe nặng lên tấm cầu phà nghiêng và
 
 Phà rời bến lúc 7h10. Biển Cát Bà buổi sáng phẳng, không gió, màu xám xanh. Bảy ngày và hơn 1.200 km bắt đầu từ đây.
 
+![Dừng trên một đỉnh đèo nhìn xuống thung lũng núi rừng trùng điệp phía đông bắc](/images/posts/cat-ba-binh-lieu-ngay-1/deo-nhin-thung-lung.jpg)
+
 ![Cả nhóm và dàn xe adventure tập kết trước khi vào cung Đông Bắc, con R1250GS bên trái](/images/posts/cat-ba-binh-lieu-ngay-1/doan-truoc-cong.jpg)
 
 | Hạng mục     | Chi tiết                             |
