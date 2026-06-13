@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.2.0](https://github.com/hieplam/todd.lamb/compare/astro-paper-v6-v6.1.0...astro-paper-v6-v6.2.0) (2026-06-13)
+
+
+### Features
+
+* add GitHub Pages deployment ([#5](https://github.com/hieplam/todd.lamb/issues/5)) ([eef0090](https://github.com/hieplam/todd.lamb/commit/eef0090dd564ec0a577b3fa4c10778ba189bd96f))
+* loạt bài hành trình Đông Bắc – Hà Giang 7 ngày (R1250GS) + ảnh thật ([#9](https://github.com/hieplam/todd.lamb/issues/9)) ([b7d82a4](https://github.com/hieplam/todd.lamb/commit/b7d82a4a551f4f4e2a4254f4edb0897197d13527))
+* multilingual posts — language filter, badge, and switch button ([#7](https://github.com/hieplam/todd.lamb/issues/7)) ([8a3c4e7](https://github.com/hieplam/todd.lamb/commit/8a3c4e7f6e5063fdc8e95dd960e33f8f4f8749c8))
+* redesign as Vietnamese moto adventure blog with auth-gated Dokploy deploy ([#3](https://github.com/hieplam/todd.lamb/issues/3)) ([3e3b1df](https://github.com/hieplam/todd.lamb/commit/3e3b1dfd7d42c6b42c8a87c0dccb745897d95745))
+* serve blog publicly by default, keep basic auth as env toggle ([#4](https://github.com/hieplam/todd.lamb/issues/4)) ([301863d](https://github.com/hieplam/todd.lamb/commit/301863d2b2450a0f305b98e5634293b4df1293d7))
+
+
+### Bug Fixes
+
+* **i18n:** remove "en" from Astro locales to fix /posts/lang/en nav 404s ([#8](https://github.com/hieplam/todd.lamb/issues/8)) ([c460499](https://github.com/hieplam/todd.lamb/commit/c46049944812a486a58e5ab5b4c8e9d1f0cc14d5))
+* rename site title to Hiệp Lâm Riders ([#6](https://github.com/hieplam/todd.lamb/issues/6)) ([2f6bce0](https://github.com/hieplam/todd.lamb/commit/2f6bce09a1e2052f6c58888934cafc061783c5d9))
+* series-aware prev/next nav so trip days chain in order (1→2→3) ([#10](https://github.com/hieplam/todd.lamb/issues/10)) ([cf0f727](https://github.com/hieplam/todd.lamb/commit/cf0f7279f7960b848312c5ae6e6445c67d525c6c))
+* stop tracking node_modules symlink (accidentally committed in [#10](https://github.com/hieplam/todd.lamb/issues/10)) ([#11](https://github.com/hieplam/todd.lamb/issues/11)) ([163f7e7](https://github.com/hieplam/todd.lamb/commit/163f7e7a3dd6f4fb847e72b640396b9c8bdd8539))
+
 ## v6.1.0 (2026-06-06)
 
 ### Feat
