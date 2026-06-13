@@ -15,6 +15,12 @@ const { title, description, ...props } = data;
 
 const href = getPostUrl(id, filePath, Astro.currentLocale);
 const heroImage = getPostHeroImage(id);
+
+const LANG_BADGE: Record<string, { flag: string; label: string }> = {
+  vi: { flag: "🇻🇳", label: "VI" },
+  en: { flag: "🇺🇸", label: "EN" },
+};
+const langBadge = LANG_BADGE[data.lang ?? "vi"] ?? LANG_BADGE["vi"];
 ---
 
 <li class="my-8 grid items-start gap-x-5 gap-y-3 sm:grid-cols-[220px_1fr]">
@@ -46,7 +52,15 @@ const heroImage = getPostHeroImage(id);
         {title}
       </Heading>
     </a>
-    <Datetime {...props} class="mt-1" />
+    <div class="mt-1 flex items-center gap-2">
+      <Datetime {...props} />
+      <span
+        class="text-muted-foreground border-border rounded border px-1 py-0.5 text-xs leading-none font-medium"
+      >
+        {langBadge.flag}
+        {langBadge.label}
+      </span>
+    </div>
     <p class="text-muted-foreground mt-2">{description}</p>
   </div>
 </li>
