@@ -35,7 +35,7 @@ export default defineConfig({
     }),
   ],
   i18n: {
-    locales: ["vi", "en"],
+    locales: ["vi"],
     defaultLocale: "vi",
     routing: {
       prefixDefaultLocale: false,
