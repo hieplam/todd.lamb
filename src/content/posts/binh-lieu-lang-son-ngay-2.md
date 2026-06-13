@@ -2,6 +2,8 @@
 title: "Bình Liêu → Lạng Sơn: rừng hồi, đường biên và một tô phở chua"
 description: "132 km theo QL4B từ Bình Liêu vào Lạng Sơn — đường biên giới qua rừng hồi ngát hương, vào thành phố buổi chiều kịp ghé chợ Kỳ Lừa và ăn phở chua lần đầu trong đời."
 pubDatetime: 2026-05-25T16:00:00+07:00
+series: dong-bac-ha-giang
+seriesOrder: 2
 tags:
   - dong-bac
   - lang-son

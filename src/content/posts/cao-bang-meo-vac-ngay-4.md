@@ -2,6 +2,8 @@
 title: "Cao Bằng → Mèo Vạc: ngày dài nhất, đẹp nhất vòng cung"
 description: "180km theo QL4C qua Bảo Lạc vào đất Hà Giang, rồi bò từng centimet trên Mã Pí Lèng với gần 250kg BMW R1250GS — cung đường đẹp nhất hành trình không tha cho bất kỳ ai muốn qua nhanh."
 pubDatetime: 2026-05-27T18:00:00+07:00
+series: dong-bac-ha-giang
+seriesOrder: 4
 tags:
   - dong-bac
   - ha-giang
