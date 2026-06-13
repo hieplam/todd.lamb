@@ -12,6 +12,8 @@ draft: true
 
 Sáng sớm ở Mèo Vạc, mùi khói bếp than từ nhà ai đó vọng xuống mặt đường. Mình ngồi trước cổng nhà nghỉ, tay cầm cốc cà phê đen vừa mua ở quán đầu phố, nhìn lên triền núi bên kia đang dần sáng. Sau bốn ngày chạy liên tục — từ Cát Bà, qua Bình Liêu, Lạng Sơn, Cao Bằng rồi vượt Mã Pí Lèng — hôm nay là ngày ngắn nhất trong hành trình. Chỉ ~90 km tổng cộng, đích đến là Đồng Văn. Không cần vội.
 
+![Biển mây cuộn trên những đỉnh núi đá buổi sáng trên cao nguyên đá](/images/posts/meo-vac-dong-van-ngay-5/bien-may.jpg)
+
 <!-- PHOTO: cốc cà phê đen trên bàn gỗ cũ trước quán nhỏ ở Mèo Vạc, phía sau là vách núi đá tai mèo buổi sáng sớm còn mờ sương -->
 
 ## Hành trình

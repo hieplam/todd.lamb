@@ -14,7 +14,7 @@ Mình đang đứng ở một điểm cua tay áo trên Mã Pí Lèng, tay trái
 
 Đây là ngày thứ tư. Ngày dài nhất, đẹp nhất — và cũng là ngày đầu tiên mình thực sự hiểu câu mà anh bạn hay cảnh báo trước chuyến đi: _"GS trên Mã Pí Lèng thì cẩn thận, đừng nghĩ cứ xe to là oai."_
 
-<!-- PHOTO: Đỉnh đèo Mã Pí Lèng nhìn xuống sông Nho Quế xanh ngọc từ điểm dừng chân bên vách đá, chiếc R1250GS đứng bên cạnh -->
+![Chiếc BMW R1250GS dừng bên lan can một cây cầu, nhìn ra khúc sông chảy giữa hai vách núi dựng đứng trên cung QL4C](/images/posts/cao-bang-meo-vac-ngay-4/xe-ben-song.jpg)
 
 ## Tổng quan ngày 4
 

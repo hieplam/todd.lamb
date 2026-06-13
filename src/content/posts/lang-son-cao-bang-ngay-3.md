@@ -14,6 +14,8 @@ Tiếng nước Bản Giốc nghe rõ từ cách bờ gần hai trăm mét. Khô
 
 Đó là cuối chiều ngày 3. Buổi sáng mình còn đang ăn bánh cuốn ở Lạng Sơn.
 
+![Nhóm mình tấp vào một khúc cua đường rừng trên QL4A nghỉ chân](/images/posts/lang-son-cao-bang-ngay-3/khuc-cua-duong-rung.jpg)
+
 <!-- PHOTO: thác Bản Giốc nhìn từ bờ phía Việt Nam — nước trắng xóa trải rộng, bên trái là cờ Trung Quốc xa xa, trời chiều muộn -->
 
 ## Cung ngắn trên giấy, dài ngoài thực tế
@@ -39,7 +41,7 @@ Khoảng km 70 từ Lạng Sơn, đường bắt đầu leo. Đèo Bông Lau —
 
 Qua đỉnh đèo, đường xuống về phía Cao Bằng thoáng hẳn. Khoảng 11h mình vào đến thành phố.
 
-<!-- PHOTO: QL4A đoạn sau đèo Bông Lau — đường thẳng chạy vào thung lũng, hai bên ruộng lúa xanh, trời cuối tháng 5 nắng nhẹ -->
+![Mây sà xuống sườn núi trên đường QL4A sang Cao Bằng](/images/posts/lang-son-cao-bang-ngay-3/duong-may-phu.jpg)
 
 ## Cao Bằng ghé qua, Bản Giốc mới là đích
 

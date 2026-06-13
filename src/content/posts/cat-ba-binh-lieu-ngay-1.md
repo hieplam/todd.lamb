@@ -16,7 +16,7 @@ Cái khoảnh khắc đó — dắt xe nặng lên tấm cầu phà nghiêng và
 
 Phà rời bến lúc 7h10. Biển Cát Bà buổi sáng phẳng, không gió, màu xám xanh. Bảy ngày và hơn 1.200 km bắt đầu từ đây.
 
-<!-- PHOTO: con R1250GS đứng trên khoang phà, thùng cứng hai bên, nền biển Cát Bà sáng sớm xám xanh -->
+![Cả nhóm và dàn xe adventure tập kết trước khi vào cung Đông Bắc, con R1250GS bên trái](/images/posts/cat-ba-binh-lieu-ngay-1/doan-truoc-cong.jpg)
 
 | Hạng mục     | Chi tiết                             |
 | ------------ | ------------------------------------ |
