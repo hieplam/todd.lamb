@@ -23,6 +23,53 @@ import config from "./astro-paper.config";
 // configured public URL into `site` (origin) and `base` (path) so every asset,
 // link, RSS item and the Pagefind bundle resolve under the deployed prefix.
 const deployUrl = new URL(config.site.url);
+const basePath = deployUrl.pathname.replace(/\/$/, "");
+
+type HastNode = {
+  type?: string;
+  tagName?: string;
+  properties?: Record<string, unknown>;
+  children?: HastNode[];
+};
+
+/**
+ * Prefix root-relative markdown URLs (image `src` and link `href`, e.g.
+ * `/images/posts/...` or `/posts/some-slug`) with the configured Astro `base`.
+ * Astro applies `base` to framework-generated links but NOT to raw `<img>`/`<a>`
+ * produced from markdown, so post body images and in-content links 404 when the
+ * site is served from a sub-path (GitHub Pages `/todd.lamb`). Card/hero images
+ * and nav links go through `getAssetPath`/`getRelativeLocaleUrl` and are
+ * unaffected. Anchors (`#...`), protocol-relative (`//`) and absolute URLs are
+ * left untouched.
+ */
+function rehypeBaseUrls() {
+  const prefix = (value: unknown): unknown => {
+    if (
+      typeof value !== "string" ||
+      !basePath ||
+      !value.startsWith("/") ||
+      value.startsWith("//") ||
+      value.startsWith(`${basePath}/`)
+    ) {
+      return value;
+    }
+    return `${basePath}${value}`;
+  };
+
+  return (tree: HastNode) => {
+    const visit = (node: HastNode) => {
+      if (node.type === "element" && node.properties) {
+        if (node.tagName === "img") {
+          node.properties.src = prefix(node.properties.src);
+        } else if (node.tagName === "a") {
+          node.properties.href = prefix(node.properties.href);
+        }
+      }
+      node.children?.forEach(visit);
+    };
+    visit(tree);
+  };
+}
 
 export default defineConfig({
   site: deployUrl.origin,
@@ -47,7 +94,7 @@ export default defineConfig({
         remarkToc,
         [remarkCollapse, { test: "Table of contents" }],
       ],
-      rehypePlugins: [rehypeCallouts],
+      rehypePlugins: [rehypeCallouts, rehypeBaseUrls],
     }),
     shikiConfig: {
       themes: { light: "min-light", dark: "night-owl" },
