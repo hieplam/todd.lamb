@@ -38,6 +38,10 @@ Khoảng Km80, bắt đầu thấy xe tải nhiều hơn. Gần đến Thái Ngu
 
 Mình dừng ăn trưa ở một quán cơm ven đường trước Thái Nguyên. Cơm rang trứng với canh rau. Chủ quán hỏi xe gì to vậy, mình giải thích qua loa rồi ăn. Cái giản dị của bữa trưa đó so với mấy ngày trước — phở Cao Bằng, lợn quay Đồng Văn, cá hồ Ba Bể — cũng là một cột mốc theo cách riêng của nó.
 
+![Đồ ăn dọc đường: một tô phở bò nóng kèm quẩy ở quán ven quốc lộ](/images/posts/bac-kan-ha-noi-ngay-7/to-pho.jpg)
+
+![Đồ ăn dọc đường: nồi lẩu nóng của cả nhóm sau một ngày chạy xe](/images/posts/bac-kan-ha-noi-ngay-7/lau-nhom.jpg)
+
 ![Nhóm mình dừng nghỉ ở một quán ven đường dưới tán cây lớn, đoạn đồng bằng trước khi về Hà Nội](/images/posts/bac-kan-ha-noi-ngay-7/dung-quan.jpg)
 
 <!-- PHOTO: R1250GS đậu trước cổng Hà Nội hoặc đoạn phố quen khi về đến nội đô, thùng cứng bám bụi đỏ từ đất Cao Bằng vẫn chưa kịp rửa -->
