@@ -21,12 +21,12 @@ Below is the day-by-day log: the memorable stretches and the ones I'd skip if I 
 
 ## Route and Trip Stats
 
-|              |                                                                   |
-| ------------ | ----------------------------------------------------------------- |
-| Distance     | 1,900 km                                                          |
-| Duration     | 10 days                                                           |
-| Bike         | Honda CB500X                                                      |
-| Timing       | Late March – early April; light morning rain common in Central Vietnam |
+|          |                                                                        |
+| -------- | ---------------------------------------------------------------------- |
+| Distance | 1,900 km                                                               |
+| Duration | 10 days                                                                |
+| Bike     | Honda CB500X                                                           |
+| Timing   | Late March – early April; light morning rain common in Central Vietnam |
 
 Route: Saigon → Bảo Lộc → Buôn Ma Thuột → Kon Tum → Khe Sanh → Phong Nha → Hà Tĩnh → Ninh Bình → Hanoi.
 

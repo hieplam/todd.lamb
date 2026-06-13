@@ -54,8 +54,11 @@ const langBadge = LANG_BADGE[data.lang ?? "vi"] ?? LANG_BADGE["vi"];
     </a>
     <div class="mt-1 flex items-center gap-2">
       <Datetime {...props} />
-      <span class="text-muted-foreground border-border rounded border px-1 py-0.5 text-xs font-medium leading-none">
-        {langBadge.flag} {langBadge.label}
+      <span
+        class="text-muted-foreground border-border rounded border px-1 py-0.5 text-xs leading-none font-medium"
+      >
+        {langBadge.flag}
+        {langBadge.label}
       </span>
     </div>
     <p class="text-muted-foreground mt-2">{description}</p>
