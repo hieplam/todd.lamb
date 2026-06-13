@@ -2,6 +2,8 @@
 title: "Vòng cung Đông Bắc – Hà Giang 7 ngày bằng R1250GS: toàn cảnh 1.200km"
 description: "Một vòng khép kín từ Cát Bà lên địa đầu Tổ quốc rồi về Hà Nội: 7 ngày, hơn 1.200km, qua Bình Liêu, Cao Bằng, Mã Pí Lèng, Đồng Văn và Hồ Ba Bể trên con BMW R1250GS."
 pubDatetime: 2026-06-01T20:00:00+07:00
+series: dong-bac-ha-giang
+seriesOrder: 0
 tags:
   - dong-bac
   - ha-giang

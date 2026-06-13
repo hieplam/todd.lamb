@@ -23,6 +23,8 @@ const posts = defineCollection({
       timezone: z.string().optional(),
       lang: z.enum(["vi", "en"]).default("vi"),
       multiLangKey: z.string().optional(),
+      series: z.string().optional(),
+      seriesOrder: z.number().optional(),
     }),
 });
 

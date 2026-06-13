@@ -2,6 +2,8 @@
 title: "Đồng Văn → Ba Bể: rời đá về nước"
 description: "290km rời cao nguyên đá Đồng Văn về phía nam, kết thúc ngày dài bên mặt hồ Ba Bể yên tĩnh — thuyền độc mộc, homestay người Tày, và cảm giác như vừa bước qua hai thế giới."
 pubDatetime: 2026-05-29T18:30:00+07:00
+series: dong-bac-ha-giang
+seriesOrder: 6
 tags:
   - dong-bac
   - bac-kan

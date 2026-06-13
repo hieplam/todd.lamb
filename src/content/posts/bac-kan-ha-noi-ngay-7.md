@@ -2,6 +2,8 @@
 title: "Bắc Kạn → Hà Nội: chặng cuối khép vòng 1.200km Đông Bắc"
 description: "Ngày 7, rời Ba Bể theo QL3 cũ về Hà Nội — 146km chặng cuối đơn giản nhất của cả chuyến, nhưng cũng là đoạn mình nghĩ nhiều nhất."
 pubDatetime: 2026-05-30T16:00:00+07:00
+series: dong-bac-ha-giang
+seriesOrder: 7
 tags:
   - dong-bac
   - vong-cung

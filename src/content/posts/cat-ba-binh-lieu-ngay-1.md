@@ -2,6 +2,8 @@
 title: "Cát Bà → Bình Liêu: rời đảo, lên biên"
 description: "Dắt con GS 250kg xuống phà Cát Bà, băng qua Hải Phòng đông đúc rồi đi vào Bình Liêu — thị trấn biên giới nhỏ mà buổi chiều mây thấp đến mức chạm tay được."
 pubDatetime: 2026-05-24T17:30:00+07:00
+series: dong-bac-ha-giang
+seriesOrder: 1
 tags:
   - dong-bac
   - quang-ninh

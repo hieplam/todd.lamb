@@ -2,6 +2,8 @@
 title: "Lạng Sơn → Cao Bằng → Bản Giốc: tiếng nước và đường biên"
 description: "Chạy QL4A qua đèo Bông Lau lịch sử, tới Cao Bằng rồi đẩy thêm ra thác Bản Giốc — đứng trước thác lớn nhất biên giới, bên kia sông là Trung Quốc."
 pubDatetime: 2026-05-26T17:00:00+07:00
+series: dong-bac-ha-giang
+seriesOrder: 3
 tags:
   - dong-bac
   - cao-bang

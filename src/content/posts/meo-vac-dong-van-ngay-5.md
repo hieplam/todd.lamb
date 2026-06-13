@@ -2,6 +2,8 @@
 title: "Mèo Vạc → Đồng Văn: đứng ở địa đầu Tổ quốc"
 description: "Một ngày ngắn trên cao nguyên đá: 29 km đường Hạnh Phúc lên Đồng Văn, leo 389 bậc thang lên cột cờ Lũng Cú, chạm tay vào cột mốc số 0, và tối lang thang phố cổ."
 pubDatetime: 2026-05-28T17:00:00+07:00
+series: dong-bac-ha-giang
+seriesOrder: 5
 tags:
   - ha-giang
   - dong-van
