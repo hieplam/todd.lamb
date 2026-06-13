@@ -47,23 +47,23 @@ Mình chạy chậm. Không phải vì không dám mà vì đây là cách duy n
 
 Nhưng từ những điểm dừng đó, cảnh vật hiện ra một cách tàn nhẫn là đẹp.
 
+![Điểm dừng chân ven vực trên cao nguyên đá, biển mây vờn quanh các đỉnh núi, con GS dựng bên xích đu gỗ](/images/posts/cao-bang-meo-vac-ngay-4/diem-dung-deo.jpg)
+
 Sông Nho Quế ở đáy hẻm Tu Sản màu xanh ngọc lam không giống bất kỳ con sông nào mình từng thấy — không phải màu bản đồ, không phải màu photoshop, là màu thật từ trầm tích đá vôi pha với ánh sáng buổi sáng. Vách đá dựng thẳng từ mặt nước lên tới chân đường, cao đến mức mình ngước mãi không thấy hết. Mình đứng im một lúc khá dài ở điểm ngắm chính, không chụp ảnh ngay, chỉ nhìn.
 
 Nước chè xanh ở điểm dừng đỉnh đèo — bán bằng bát, bà cụ người Mông rót từ ấm nhôm cũ — ngon theo cái cách mà thứ gì uống đúng lúc đúng chỗ thì ngon, không giải thích được.
 
 ![Đường nhỏ luồn dưới chân những vách núi đá vôi đoạn rời Cao Bằng đi Mèo Vạc](/images/posts/cao-bang-meo-vac-ngay-4/duong-karst.jpg)
 
-![Con đường Hạnh Phúc vắt ngang sườn núi đá vôi xanh trên đèo Mã Pí Lèng](/images/posts/cao-bang-meo-vac-ngay-4/deo-ma-pi-leng.jpg)
+![Khúc cua tay áo dốc sát vách đá tai mèo trên đèo Mã Pí Lèng, một xe đang bò lên](/images/posts/cao-bang-meo-vac-ngay-4/cua-deo-ma-pi-leng.jpg)
 
-_Ảnh: [Khánh Hmoong](https://commons.wikimedia.org/wiki/File:Ma_Pi_Leng_Pass_winding_road_Ha_Giang_Vietnam.jpg) — Wikimedia Commons, CC BY 2.0_
-
-![Sông Nho Quế màu xanh ngọc lam len giữa hẻm vực sâu, nhìn từ trên đỉnh Mã Pí Lèng](/images/posts/cao-bang-meo-vac-ngay-4/song-nho-que.jpg)
-
-_Ảnh: [NKSTTSSHNVN](https://commons.wikimedia.org/wiki/File:S%C3%B4ng_Nho_Qu%E1%BA%BF_2022_-_NKS.jpg) — Wikimedia Commons, CC BY-SA 4.0_
+![Đoàn xe dừng bên con đường hẹp men theo sông Nho Quế nước xanh, vách núi dựng hai bên](/images/posts/cao-bang-meo-vac-ngay-4/ven-song-nho-que.jpg)
 
 Đoạn xuống về phía Mèo Vạc nhẹ hơn đoạn lên — đường rộng hơn một chút, cua bớt gắt hơn. Nhưng mình vẫn chạy chậm. Phanh trước phanh sau nhịp nhàng, không để tốc độ vượt quá cảm giác kiểm soát. Con GS có ABS và các chế độ lái, nhưng lúc này mình không tin vào công nghệ bằng tin vào việc không tạo ra tình huống cần công nghệ đó can thiệp.
 
 ## Chiều — Mèo Vạc
+
+![Xe adventure đỗ trước biển hiệu thị trấn Mèo Vạc](/images/posts/cao-bang-meo-vac-ngay-4/thi-tran-meo-vac.jpg)
 
 Xuống khỏi đèo lúc gần 1 giờ trưa. Mèo Vạc còn 15km, đường bằng phẳng hơn hẳn. Mình dừng ở bến thuyền sông Nho Quế — cách đỉnh đèo khoảng 8km — chỉ để xuống nhìn mặt nước từ gần. Không đi thuyền vào hẻm lần này vì đã đi chuyến khác; nhưng chỉ đứng ở bến nhìn dòng nước chảy qua kẽ đá cũng đủ.
 

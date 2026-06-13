@@ -44,6 +44,8 @@ Chợ Kỳ Lừa cách đó đi bộ khoảng 10 phút. Đây là chợ truyền
 
 ![Nghỉ ở một quán cóc mái lá ven đường, nhìn ra con đường vắng luồn qua rừng núi lúc trời lất phất mưa](/images/posts/binh-lieu-lang-son-ngay-2/quan-ven-duong-mua.jpg)
 
+![Đứng trên đèo nhìn xuống thung lũng xanh trải rộng, núi trùng điệp phía xa](/images/posts/binh-lieu-lang-son-ngay-2/deo-thung-lung.jpg)
+
 Phở chua là thứ mình tò mò nhất khi đến Lạng Sơn. Gọi là phở nhưng ăn nguội, không có nước dùng nóng — sợi phở tươi trắng trộn với xá xíu, gan lợn, dạ dày, dưa cải muối, lạc rang và nước sốt chua ngọt màu nâu đỏ từ tương hoisin và giấm. Lần đầu ăn hơi bỡ ngỡ vì phản xạ cứ chờ nước dùng nóng. Hàng phở chua quen ở phố Tô Thị, bán từ 10h đến khoảng 15h, một tô 40.000đ, no hơn tưởng vì phần nhiều. Ngon theo cái cách mà món địa phương thật sự ngon — không có biến tấu cho khách du lịch, chỉ có vị quen của người nấu quen tay.
 
 Tối mình thử thêm vịt quay Lạng Sơn ở hàng nhỏ gần khách sạn. Da giòn, thịt không khô, chấm mắm gừng. 120.000đ nửa con, ăn hai người vừa đủ.

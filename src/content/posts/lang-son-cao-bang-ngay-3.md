@@ -16,9 +16,9 @@ Tiếng nước Bản Giốc nghe rõ từ cách bờ gần hai trăm mét. Khô
 
 ![Nhóm mình tấp vào một khúc cua đường rừng trên QL4A nghỉ chân](/images/posts/lang-son-cao-bang-ngay-3/khuc-cua-duong-rung.jpg)
 
-![Thác Bản Giốc đổ thành nhiều tầng giữa thung lũng karst Trùng Khánh, Cao Bằng, mặt nước dưới chân thác màu ngọc](/images/posts/lang-son-cao-bang-ngay-3/thac-ban-gioc.jpg)
+![Thác Bản Giốc nhiều tầng đổ xuống hồ nước màu ngọc, đá phủ rêu nổi giữa dòng — nhìn từ bờ Việt Nam](/images/posts/lang-son-cao-bang-ngay-3/thac-ban-gioc-1.jpg)
 
-_Ảnh: [kenner116](https://commons.wikimedia.org/wiki/File:Ban_Gioc_-_Detian_Falls14.jpg) — Wikimedia Commons, CC BY 2.0_
+![Một góc gần của thác Bản Giốc, nước trắng xóa cuộn xuống mặt hồ xanh](/images/posts/lang-son-cao-bang-ngay-3/thac-ban-gioc-2.jpg)
 
 ## Cung ngắn trên giấy, dài ngoài thực tế
 

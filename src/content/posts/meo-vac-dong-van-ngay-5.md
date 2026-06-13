@@ -57,6 +57,8 @@ Chiều mình rảo phố cổ Đồng Văn — khu phố đá hơn 100 tuổi, 
 
 Tối, mình ăn thắng cố ở quán trong phố cổ — cái mùi đặc trưng không phải ai cũng ổn, nhưng mình đã quen từ lần trước lên đây. Một bát, một chén rượu ngô, ngồi nhìn phố đá lên đèn. Ngày 90 km mà cảm giác no đầy hơn nhiều ngày 200 km.
 
+![Bữa tối của cả nhóm sau một ngày trên cao nguyên đá — mâm cơm nhiều món rau thịt](/images/posts/meo-vac-dong-van-ngay-5/bua-toi-nhom.jpg)
+
 ![Đoàn xe đỗ trong sân một dinh thự cổ trình tường ở Đồng Văn, giàn hoa giấy đỏ rủ xuống](/images/posts/meo-vac-dong-van-ngay-5/san-nha-co.jpg)
 
 ## Lưu ý nếu bạn đi cung này
