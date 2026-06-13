@@ -7,6 +7,8 @@ tags:
   - cam-nang
   - solo
 featured: true
+lang: vi
+multiLangKey: xuyen-viet-10-ngay
 ---
 
 Ngày thứ sáu, đoạn Khe Sanh trên đường Hồ Chí Minh, trời mưa từ sáng, mình chạy vào dưới mái hiên một cái quán tạp hóa ở km nào đó mình không nhớ. Bà chủ quán rót cho mình ly trà đặc không mời, không hỏi, như thể khách xe máy dừng tránh mưa là chuyện hàng ngày. Mình uống trà, nhìn mưa đổ trên rừng thông, nghĩ rằng đây có lẽ là khoảnh khắc đại diện nhất cho toàn bộ chuyến đi: không hoành tráng, không bưu thiếp, chỉ là một mình giữa đường xa với ly trà và mưa.
