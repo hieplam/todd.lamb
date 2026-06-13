@@ -7,7 +7,7 @@ tags:
   - dong-van
   - cuc-bac
   - vong-cung
-draft: true
+draft: false
 ---
 
 Sáng sớm ở Mèo Vạc, mùi khói bếp than từ nhà ai đó vọng xuống mặt đường. Mình ngồi trước cổng nhà nghỉ, tay cầm cốc cà phê đen vừa mua ở quán đầu phố, nhìn lên triền núi bên kia đang dần sáng. Sau bốn ngày chạy liên tục — từ Cát Bà, qua Bình Liêu, Lạng Sơn, Cao Bằng rồi vượt Mã Pí Lèng — hôm nay là ngày ngắn nhất trong hành trình. Chỉ ~90 km tổng cộng, đích đến là Đồng Văn. Không cần vội.

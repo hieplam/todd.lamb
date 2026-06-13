@@ -6,7 +6,7 @@ tags:
   - dong-bac
   - lang-son
   - vong-cung
-draft: true
+draft: false
 ---
 
 Mùi đầu tiên mình ngửi thấy sáng hôm đó không phải cà phê, không phải khói bếp — mà là hồi. Hồi khô phơi trước hiên nhà người dân dọc đường xuống thị trấn, mùi nồng và ngọt theo một cách khó tả, như thảo mộc nhưng ấm hơn. Mình đứng ở sân nhà nghỉ lúc 6 giờ sáng, trời Bình Liêu se se, áo khoác vẫn chưa cởi, nhìn con R1250GS đứng im dưới mái hiên với hai thùng cứng hai bên — và nhận ra hôm nay sẽ là ngày chạy dễ thở nhất của cả hành trình.

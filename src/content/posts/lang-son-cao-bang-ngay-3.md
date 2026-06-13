@@ -7,7 +7,7 @@ tags:
   - cao-bang
   - thac
   - vong-cung
-draft: true
+draft: false
 ---
 
 Tiếng nước Bản Giốc nghe rõ từ cách bờ gần hai trăm mét. Không phải tiếng ầm ào của thác lớn — mà là một tiếng rền liên tục, đều, như cái nền của tất cả mọi thứ khác. Mình tắt máy xe, dắt vào bóng cây, đứng yên. Sông Quây Sơn chảy từ phía tây sang, đến đây rơi xuống một bậc thềm đá rộng gần nửa cây số, rồi bên kia — đúng theo nghĩa đen — là đất Trung Quốc. Không có hàng rào, không có tường. Chỉ có nước.

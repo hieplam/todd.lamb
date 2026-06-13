@@ -7,7 +7,7 @@ tags:
   - quang-ninh
   - bien-gioi
   - vong-cung
-draft: true
+draft: false
 ---
 
 Người đàn ông trông phà nhìn con GS một lượt từ đầu đến đuôi, rồi nói: "Xe này bao nhiêu ký?" Mình đáp 250 đầy bình. Ông gật đầu, chỉ tay về phía mũi tàu: "Chú dắt lên đây, tôi chèn bánh cho." Rồi ông quay sang người đứng cạnh nói gì đó mình không nghe rõ, cả hai cùng cười. Mình không hỏi lại — cứ dắt xe lên phà đã, lên được rồi tính tiếp.

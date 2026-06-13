@@ -6,7 +6,7 @@ tags:
   - dong-bac
   - vong-cung
   - cam-nang
-draft: true
+draft: false
 ---
 
 Đồng hồ xe chỉ 6h47, mình ngồi ở thềm nhà nghỉ bên hồ Ba Bể uống cà phê gói pha bằng nước sôi từ bình thermos — cái bình thermos mình mang theo suốt bảy ngày mà đây là lần đầu tiên thực sự dùng đến. Mặt hồ phẳng lặng. Tiếng mái chèo của mấy người dân đi thuyền ra đánh cá vọng xa. Mình ngồi thêm mười lăm phút không làm gì, không check điện thoại, chỉ uống hết ly cà phê.

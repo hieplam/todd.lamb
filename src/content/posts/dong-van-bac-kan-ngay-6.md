@@ -7,7 +7,7 @@ tags:
   - bac-kan
   - ho
   - vong-cung
-draft: true
+draft: false
 ---
 
 Lúc mình lăn bánh ra khỏi Đồng Văn, mặt đường đá ghép còn ướt sương đêm, lốp GS kêu khẽ trên phiến đá thay vì tiếng nhựa quen thuộc. Mình nhìn vào gương chiếu hậu — phố cổ thu lại, mái ngói âm dương nhuốm ánh vàng non sáng sớm — và nghĩ: đây là lần cuối trong chuyến này mình thấy đá tai mèo.

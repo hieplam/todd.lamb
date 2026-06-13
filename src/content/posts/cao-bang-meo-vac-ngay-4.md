@@ -7,7 +7,7 @@ tags:
   - ha-giang
   - deo
   - vong-cung
-draft: true
+draft: false
 ---
 
 Mình đang đứng ở một điểm cua tay áo trên Mã Pí Lèng, tay trái vịn vào vách đá, nhìn xuống vực bên phải. Chiếc GS đang dựng nghiêng trên chân chống giữa, bánh trước cách mép đường chưa đến một mét. Phía dưới, sông Nho Quế màu xanh ngọc — đẹp đến mức mình gần như quên mất mình vừa mất kha khá sức lực để đẩy cái xe nặng 250kg qua khúc cua đó mà không cho nó đổ vào vách đá.
