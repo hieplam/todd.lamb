@@ -45,7 +45,9 @@ Từ Đồng Văn lên đến chân cột cờ Lũng Cú khoảng 24 km theo hư
 
 Trên đỉnh, lá cờ đỏ to hơn mình tưởng, phần phật trong gió. Bên dưới là đồng ruộng và bản làng của cả hai phía biên giới — bên này là đất Việt Nam, bên kia là Trung Quốc, cách nhau chỉ một con suối nhỏ không tên. Cái cảm giác đứng ở cực bắc và nhìn ra, không hẳn là hùng tráng như trong ảnh — thật hơn, lặng hơn, và theo một cách nào đó xúc động hơn.
 
-<!-- PHOTO: lá cờ đỏ sao vàng to phần phật trên đỉnh cột cờ Lũng Cú nhìn từ sân thượng, phía xa là thung lũng và bản làng hai bên biên giới dưới nắng cuối tháng 5 -->
+![Cột cờ Lũng Cú sừng sững trong sương — điểm cực bắc của Tổ quốc](/images/posts/meo-vac-dong-van-ngay-5/cot-co-lung-cu.jpg)
+
+_Ảnh: [Vuong Tri Binh](https://commons.wikimedia.org/wiki/File:Lung_Cu_flag_tower_of_Ha_Giang_in_2014_01.jpg) — Wikimedia Commons, CC BY-SA 4.0_
 
 ## Cột mốc số 0 và phố cổ Đồng Văn
 

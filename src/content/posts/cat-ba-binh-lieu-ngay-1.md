@@ -16,6 +16,10 @@ Cái khoảnh khắc đó — dắt xe nặng lên tấm cầu phà nghiêng và
 
 Phà rời bến lúc 7h10. Biển Cát Bà buổi sáng phẳng, không gió, màu xám xanh. Bảy ngày và hơn 1.200 km bắt đầu từ đây.
 
+![Vịnh Cát Bà buổi sáng — núi đá vôi nhô lên mặt nước xanh ngọc, nhà bè của ngư dân neo giữa vịnh](/images/posts/cat-ba-binh-lieu-ngay-1/vinh-cat-ba.jpg)
+
+_Ảnh: [Jakub Hałun](https://commons.wikimedia.org/wiki/File:Cat_Ba_Island%2C_Vietnam%2C_20240131_1407_4670.jpg) — Wikimedia Commons, CC BY 4.0_
+
 ![Dừng trên một đỉnh đèo nhìn xuống thung lũng núi rừng trùng điệp phía đông bắc](/images/posts/cat-ba-binh-lieu-ngay-1/deo-nhin-thung-lung.jpg)
 
 ![Cả nhóm và dàn xe adventure tập kết trước khi vào cung Đông Bắc, con R1250GS bên trái](/images/posts/cat-ba-binh-lieu-ngay-1/doan-truoc-cong.jpg)
@@ -45,7 +49,9 @@ Dừng ăn sáng ở một quán bún cá gần ngã tư Lạch Tray — tô bú
 
 Ra khỏi thành phố theo hướng QL10 về phía đông bắc, đường rộng hơn, xe thưa dần. Từ đây đến Tiên Yên khoảng 120 km, đường nhựa tốt, ít đèo, chạy được tốc độ ổn định. Đây là phần mà con GS thoải mái nhất — tốc độ hành trình đều, động cơ boxer không cần ép, gió che tốt, lưng không mỏi dù ngồi hai tiếng liền.
 
-<!-- PHOTO: đường QL10 thẳng dài phía đông bắc Hải Phòng, hai bên ruộng lúa cuối tháng 5 màu xanh nhạt, ít xe -->
+![Sống lưng khủng long Bình Liêu — dải đường mòn trắng vắt qua đỉnh đồi cỏ lau vàng, mây luồn dưới chân](/images/posts/cat-ba-binh-lieu-ngay-1/song-lung-khung-long.jpg)
+
+_Ảnh: [NKSTTSSHNVN](https://commons.wikimedia.org/wiki/File:BinhLieu_by_phone.jpg) — Wikimedia Commons, CC BY-SA 4.0_
 
 ## Tiên Yên và đoạn leo lên Bình Liêu
 
